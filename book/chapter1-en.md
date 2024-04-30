@@ -89,158 +89,158 @@ In fact, "**I can do it too**" these three words are the most realistic and effe
 
 [^3]: People always tend to overestimate themselves. For example, an interesting survey found that more than 70% of drivers believe that their driving skills are above average. So, "even those who are not as good as themselves" is often just an illusion.
 
-## 4. 观念是如何影响我的？
 
-观念的力量有时如此之大，乃至于某个观念上的一点点改变，就可能够改变一个人的一生。
+## 4. How Do Beliefs Influence Me?
 
-穿透表象深入实质并不像说起来的那么容易。历史学家们许多年的研究过后才达成共识，当初打败印第安人的并不是欧洲人的先进军火，而是欧洲人身上所存在的、那无论是当时的欧洲人还是印第安人都看不见摸不着的病毒打败了印第安人，使他们成群地病倒、死去，使当时的欧洲人看起来 “有如神助” ……
+The power of beliefs can be so profound that a slight shift in one's beliefs can potentially change a person's entire life.
 
-所以，很多时候问题的实际根源与那显而易见的表象之间总是相去甚远。而观念的力量在我个人身上也有过一次戏剧性的体现。
+Penetrating the surface to reach the essence is not as easy as it sounds. Historians have reached a consensus after many years of research that it was not the advanced weaponry of the Europeans that defeated the Native Americans, but the viruses that existed on the Europeans, which were invisible and intangible to both the Europeans and the Native Americans at the time. These viruses caused the Native Americans to fall ill and die in droves, making the Europeans appear to have "divine assistance"...
 
-大约二十年前（1988 年前后）我刚上高中。我父亲的教研室里 有位教英语的副教授去考了一次托福，成绩是 570 分（满分 677 分）。大家提起这事儿的时候都说，“这个成绩已经不错了！”（因为之前有另外一个教授去考过，是 530 分……）尽管我不懂那是什么样的考试，但留下了个印象：这是个很难的考试。
+So, often the actual root of the problem is far removed from the seemingly obvious manifestation. The power of beliefs has also had a dramatic impact on me personally.
 
-又过了好几年，1993 年，我读大三。隔壁班的一位同学据说要考托福。现在想来，当时在北京读书的大学生们都在如火如荼地准备这个考试，可是当时的长春，根本没有人知道这个考试。在那里，我就算见多识广的了。某天晚上回到寝室大家提起这件事儿的时候，我就给大家讲了讲托福考试有多难。大家听到大学老师也只不过考了个 570 分的时候，吐了吐舌头，都说，“这干脆就不是人考的么！” 之后，大家给那位同学起了个外号 —— “牲口”。
+About twenty years ago (around 1988), when I first started high school, a professor of English in my father's research office took the TOEFL test and scored 570 points (out of a total of 677). When people talked about it, they all said, "That's a pretty good score!" (Because a professor had taken the test before and scored 530...) Although I didn't understand what kind of test it was, it left an impression on me: it was a difficult test.
 
-那一年夏天，我到北京找在清华读书的一个高中同学，请他学计算机的同学为我攒一台 486 电脑。路上走过一处平房的时候，他指着那房子说，“那就是新东方”。他的口气就好像是我应该知道一样。于是我问，“什么新东方？” 他告诉我那是个英语培训机构，要出国，就到那里参加培训。据说大学生都在传：“去那里不一定能打高分，但是不去那里肯定打不了高分。” 转瞬间这个话题就过去，我们接着聊了些什么，现在的我早已经没有了记忆……
+A few years later, in 1993, when I was a junior in college, a classmate from the next class was said to be preparing for the TOEFL. Looking back, college students in Beijing were preparing for this test in full swing, but in Changchun at the time, no one knew about this test. There, I was considered well-informed. One night when we were talking about this in the dormitory, I told everyone how difficult the TOEFL test was. When everyone heard that a college professor had only scored 570, they stuck out their tongues and all said, "This is simply not a test for humans!" After that, we gave that classmate a nickname - "Beast".
 
-许多年后，我在新东方教书好几年之后的某一天，我才突然记起，实际上很多很多年前，俞敏洪同学还处于创业阶段的时候，我其实就听说过新东方……
-而当时寝室里的讨论，很快就被同学们忘得一干二净。我现在甚至不大记得那位同学的名字。当然更不知道他托福究竟考了多少分，但他第二年去了美国，这我倒是知道的。
+That summer, I went to Beijing to find a high school classmate who was studying at Tsinghua University and asked him to help me assemble a 486 computer. On the way, he pointed to a bungalow and said, "That's New Oriental." He said it as if I should know. So I asked, "What's New Oriental?" He told me it was an English training institution, and if you want to go abroad, you should take a course there. It is said that college students are spreading the word: "Going there doesn't necessarily guarantee a high score, but not going there definitely means you won't get a high score." This topic quickly passed, and we continued to chat about something else, which I have long since forgotten...
 
-2000 年年底，已经从大学毕业多年，期间做销售、做批发赚了很多钱，后又在家陪父亲养病而花光了积蓄的我，急需一份稳定的工作。后来有个高中同校的朋友从北京打来电话，说，“笑来，来北京吧，到新东方教书，收入不错。” 这时我早已忘了六年前曾经听北京的同学提过新东方，只是问他，“收入确定不低吗？” 朋友说，“放心，以你的口才，肯定没问题！” 我就这样坐火车到北京，到新东方报了一期班；又在新东方的门口费力买来各种题集，而后把自己关在海淀区双榆树的一个 11 层的一居小房子里四个月时间，考了托福、考了 GRE，拿着变态成绩去新东方应聘。而后一口气那里教了七年。期间，新东方教育科技集团在美国纽约证交所上市，代码为 EDU。
+Many years later, one day after I had been teaching at New Oriental for several years, I suddenly remembered that many, many years ago, when Yu Minhong was still in the start-up phase, I had actually heard of New Oriental...
+And the discussion in the dormitory at that time was quickly forgotten by the students. I don't even remember the name of that classmate now. Of course, I don't know how many points he scored on the TOEFL, but I do know that he went to the United States the following year.
 
-2003 年，《托福核心词汇 21 天突破》 出版发行的那天，我请客， 一大堆朋友闲聊，不知怎么一下子想起来 1994 年（那是已经是大约十年前了）我去中关村攒电脑时路过新东方旧址的情形，进而又一下想起来那个被我们起了外号叫 “牲口” 的同学，不禁打了个寒颤。
+At the end of 2000, I had graduated from college for many years, during which time I had made a lot of money in sales and wholesale, and then spent all my savings at home taking care of my sick father. I was in desperate need of a stable job. Later, a friend from high school called me from Beijing and said, "Xiaolai, come to Beijing, teach at New Oriental, the income is good." By this time I had forgotten that I had heard about New Oriental from a classmate in Beijing six years ago, and just asked him, "Are you sure the income is not low?" The friend said, "Don't worry, with your eloquence, you'll definitely be fine!" So I took the train to Beijing, enrolled in a course at New Oriental, bought a variety of question sets at the door of New Oriental with difficulty, and then locked myself in a small one-bedroom apartment on the 11th floor of Shuangyushu, Haidian District for four months, took the TOEFL, took the GRE, and applied to New Oriental with my amazing scores. Then I taught there for seven years in one breath. During this period, New Oriental Education & Technology Group was listed on the New York Stock Exchange, with the ticker symbol EDU.
 
-这个寒颤之前，我一直觉得自己 2000 年以 28 岁的 “高龄” 把自己关到一个小屋子里四个月就搞定托福、GRE 高分是一件值得自吹自擂的事情；可是这个寒颤之后，我突然发现我其实 “很傻很天真”（1993 年）的时候，就有机会去考托福、GRE，可当时竟然以为那是 “不可能” 的事情；还自以为是地与其他同学一样叫那位同学 “牲口”…… 如若那年我去准备托福、GRE 考试（而不是 28 岁那年 —— 七年之差啊！），现在想来当时若以我还在学校的聪明脑瓜，也许不用四个月（可能三个月？）就能搞定高分。如若真的如此，此后的人生岂不是天壤之别？现在想来，那是我的心智简直就是 “畜生”，不禁暗自虚汗犹如大雨磅礴 。
+In 2003, on the day "TOEFL Core Vocabulary 21 Days Breakthrough" was published and distributed, I invited guests, and a bunch of friends chatted casually. Somehow, I suddenly remembered the situation when I passed by the old site of New Oriental in Zhongguancun in 1994 (which was about ten years ago) when I was assembling a computer, and then I suddenly remembered the classmate who we had nicknamed "Beast", and I couldn't help but shiver.
 
-我经常把我的这段经历讲给我的学生听。人就是这样，大道理听多了到最后都听不进去，看得见摸得着的真实例子才会打动他们。这些年来，我知道我的这段经历给身边很多的学生带来了足够的触动，改变了一些人，改变了一些其他我并不知道的什么。
+Before this shiver, I always felt that it was something to brag about that I locked myself in a small room for four months at the "old age" of 28 in 2000 and got high scores on the TOEFL and GRE; but after this shiver, I suddenly realized that when I was "very naive" (1993), I could have taken the TOEFL and GRE, but at that time I thought it was "impossible"; and I even called that classmate "Beast" with the same self-righteousness as other classmates... If I had prepared for the TOEFL and GRE that year (instead of at the age of 28 - a difference of seven years!), now thinking back, if I had used my smart brain when I was still in school, maybe I wouldn't have needed four months (maybe three months?) to get a high score. If that were really the case, wouldn't my life afterwards be vastly different? Now thinking back, my mentality was simply "beastly", and I couldn't help but break out in a cold sweat as if it were pouring rain.
+
+I often tell my students about this experience. People are like this, they hear a lot of truths and in the end they can't take them in, only real examples that they can see and touch will move them. Over the years, I know that my experience has brought enough impact to many students around me, changed some people, and changed some other things that I don't know about.
 
 
-## 5. 这样的结论是否有理论依据？
+## 5. Is there a theoretical basis for such conclusions?
 
-GRE 考试中有一作文题目 ：
+In the GRE exam, there is an essay topic:
 
 > "No field of study can advance significantly unless outsiders bring their knowledge and experience to that field of study."
 
-> 除非有外来者带来其它领域的知识与经验，任何一个领域都不可能大幅度进步。
+> Unless outsiders bring knowledge and experience from other fields, no field can make significant progress.
 
-尽管这话并非永远成立，但它确实是常常发生的现象。比如，这是一本关于第二语言习得（英语学习）的书，却需要从别处开始说起。
+Although this statement is not always true, it is indeed a common phenomenon. For example, this book about second language acquisition (English learning) needs to start from elsewhere.
 
-约翰霍普金斯大学的两位研究人员 David Hubel 和 Torsten Wiesel 于 1959 年年底开始做的一项实验在其后的许多年里，影响了全球不计其数的第二语言习得者 —— 只不过，这影响主要是负面的 —— 尽管该实验本身的目的与外语学习看起来没有什么直接联系：研究动物视觉系统的早期发展 。
+Two researchers from Johns Hopkins University, David Hubel and Torsten Wiesel, started an experiment at the end of 1959 that affected countless second language learners around the world for many years to come - although the impact was mainly negative - even though the purpose of the experiment itself did not seem to have a direct connection with foreign language learning: it was to study the early development of the animal visual system.
 
-> 他们将出生几个月的猫或者猴的一只眼睛用手术缝合；经过一段时间之后再重新打开。研究表明，即便后来重新打开缝合的眼睑，这些动物的眼睛也不能再获得视觉功能。在这段时间内关闭一只眼睛对于动物脑中视觉区域的结构有明显的影响。但是，对于成年猫进行同样时间或更长时间的视觉剥夺既不会影响它们的视觉能力，也不会影响它们的大脑结构。只有年幼的动物在它们发展的“关键期”（Critical Period）才会因此剥夺视觉敏感。
+> They surgically sutured one eye of a cat or monkey that was a few months old; after a while, they reopened it. The research shows that even after reopening the sutured eyelid, these animals' eyes cannot regain visual function. Closing one eye for a period of time has a significant impact on the structure of the visual area in the animal's brain. However, visual deprivation for the same time or longer in adult cats will neither affect their visual ability nor affect their brain structure. Only young animals will be deprived of visual sensitivity during their "critical period" (Critical Period).
 
 > ![](images/figure01.png)
 
-> youtube上有这个实验的记录片：
+> There are documentaries of this experiment on youtube:
 > * http://www.youtube.com/watch?v=IOHayh06LJ4
 > * http://www.youtube.com/watch?v=KE952yueVLA
 
-这项研究及其成果最终使这两个人于 1981 年获得了诺贝尔医学奖，“因为这项研究对理解视觉系统如何处理信息有着巨大贡献”。但是，人们好像对这项研究中提出的 “关键期” 概念更感兴趣。科学家们很快就发现大脑的其它部分也都需要获得刺激才能够发展，并且好像它们都符合关键期理论。而根据关键期理论，只有在关键期内，大脑才是 “可塑的”（Plastic），这时大脑所接受到的外部刺激甚至会改变大脑的结构；而关键期过后，大脑就不再是可塑的了。很快，“关键期” 这个概念延伸到了各个科学领域。
+This research and its results eventually won the two a Nobel Prize in Medicine in 1981, "because this research has made a huge contribution to understanding how the visual system processes information." But people seem to be more interested in the "critical period" concept proposed in this research. Scientists soon discovered that other parts of the brain also need to be stimulated to develop, and they seem to all conform to the critical period theory. According to the critical period theory, the brain is "plastic" (Plastic) only during the critical period, and the external stimuli received by the brain at this time may even change the structure of the brain; after the critical period, the brain is no longer plastic. Soon, the concept of "critical period" extended to various scientific fields.
 
-语言学家 Eric Heinz Lenneberg 出生于德国，二战时期逃亡巴西，后移民美国，先后就读于芝加哥大学、哈佛大学。后作为心理学和神经生物学教授，曾在哈佛大学医学院、密西根安娜堡大学以及康奈尔大学医学院任职。Lenneberg 教授在 1967 年提出 “语言习得关键期假说”（Language acquisition Critical period hypothesis），认为语言习得的关键期始于婴儿出生，止于从八岁到青春期结束之间的某一时刻。“关键期” 过后，习得第二语言的能力将大幅度下降，并且没办法去除来自母语的口音影响。
+Linguist Eric Heinz Lenneberg was born in Germany, fled to Brazil during World War II, and later immigrated to the United States. He studied at the University of Chicago and Harvard University. Later, as a professor of psychology and neurobiology, he taught at Harvard Medical School, the University of Michigan Ann Arbor, and Cornell University Medical School. Professor Lenneberg proposed the "Language Acquisition Critical Period Hypothesis" in 1967, believing that the critical period of language acquisition begins at birth and ends at some point between the age of eight and the end of adolescence. After the "critical period", the ability to acquire a second language will decline significantly, and it is impossible to remove the accent from the mother tongue.
 
-事实上，Lenneberg 教授相当谨慎，提出的是个 “假说”（Hypothesis）。可是，几乎所有的科学研究结果一旦进入大众传播领域，或多或少都会掺杂着误解，甚至被故意歪曲。比如，当年宾夕法尼亚大学的 Martin Seligman 教授的 “Learned Optimism” 提出之后，瞬间就被成功学大师们拿去当作自己手中的道具，全然不顾 Seligman 教授所持的保留态度及其严谨。同样，Lenneberg 教授的 “假说” 到了市场上，就变成了 “理论”（Theory）。原本的 “始于婴儿出生，止于从八岁到青春期结束之间的某一时刻”，也变成了 “始于 0 岁，止于 10 岁” —— 在大洋另一端的中国，这几乎成了所有少儿英语项目的主要宣传工具，其潜台词的目的不过是恐吓家长赶紧交钱，“否则就来不及了！”。
-更为普遍的是，这个 “关键期理论” 成了很多人安慰自己的借口。学不好是正常的，因为 “关键期早就过了么！” 或者 “不是小时候学的就不行……” 再或者 “都这么大岁数了，没戏了！”，等等。
+In fact, Professor Lenneberg is quite cautious and proposes a "hypothesis" (Hypothesis). However, once almost all scientific research results enter the public communication field, they will more or less be mixed with misunderstandings, or even deliberately distorted. For example, after Martin Seligman, a professor at the University of Pennsylvania, proposed "Learned Optimism", it was immediately taken as a prop in their hands by the masters of success, regardless of Professor Seligman's reserved attitude and rigor. Similarly, when Professor Lenneberg's "hypothesis" came to the market, it became a "theory" (Theory). The original "beginning at birth, ending at some point between the age of eight and the end of adolescence" also became "beginning at 0 years old, ending at 10 years old" - on the other side of the ocean in China, this has almost become the main propaganda tool for all children's English projects, and the subtext of the purpose is nothing more than to scare parents to pay quickly, "otherwise it will be too late!". More commonly, this "critical period theory" has become an excuse for many people to comfort themselves. It is normal not to learn well, because "the critical period has long passed!" Or "it's not good if you don't learn when you were a child..." Or "I'm so old, there's no drama!", etc.
 
-其实 David Hubel 和 Torsten Wiesel 的真正贡献在于他们证明了大脑是 “可塑” 的，而非一成不变的。而他们两人的局限恰恰在于人们津津乐道的 “关键期”。当时，他们俩还是 “区域论” 的坚定支持者──而区域论，很久之后才被学术界推翻。
+In fact, the real contribution of David Hubel and Torsten Wiesel is that they proved that the brain is "plastic", not unchanging. And their limitation lies in the "critical period" that people talk about. At that time, they were both staunch supporters of "regional theory"-and regional theory was not overturned by the academic community until a long time later.
 
 ![](images/figure02.png)
 
-区域论（Localizationism）认为大脑就好像是一台复杂的机器，而这个机器的每个部件都有其特定的功能；进而，每个特定的功能都是受硬件限制的（Hardwired）。而区域论的言外之意则是，一旦大脑的某个区域损坏，那么那个区域所管辖的功能就无法恢复了。而临床观察也好像确实能够印证这个结论：比如，中风[^4]患者的瘫痪肢体看起来是无论如何都无法恢复的。
+Regional theory (Localizationism) believes that the brain is like a complex machine, and each part of this machine has its specific function; and then, each specific function is limited by hardware (Hardwired). The implication of regional theory is that once a certain area of the brain is damaged, the function under the jurisdiction of that area cannot be recovered. And clinical observations seem to be able to confirm this conclusion: for example, the paralyzed limbs of stroke patients seem to be unable to recover no matter what.
 
 ![](images/figure03.png)
 
-很漂亮的一个男孩，是不是？注意到了么，他的眼睛？这不是特效，这男孩的眼睛就那么亮。这个男孩是海洋吉普赛人（Sea Gypsies），他们的眼睛都这么亮。
+A very beautiful boy, isn't he? Have you noticed his eyes? This is not a special effect, this boy's eyes are so bright. This boy is a Sea Gypsy, their eyes are all so bright.
 
-海洋吉普赛人生活在泰国西海岸附近，属于游牧民族，只不过，他们以捕食海鲜为生。他们生命中的绝大部分都漂流在海上。这个男孩就是在海上出生的。他 们在学会说话学会走路之前就能够学会游泳。他们可以在不使用任何设备的情况下轻松潜入水面 30 英尺以下 —— 有个叫做苏鲁的部落，他们常常要潜到 75 英尺之下去采珍珠。他们能够控制并降低自己的心率，进而控制自己的氧消耗，他们可以在水下滞留很长时间，往往两倍于普通人以上。
+Sea Gypsies live near the west coast of Thailand and belong to nomadic people, but they live on seafood. Most of their lives are drifting at sea. This boy was born at sea. They can learn to swim before they learn to speak and walk. They can easily dive below 30 feet without using any equipment - a tribe called Suru often has to dive below 75 feet to pick pearls. They can control and lower their heart rate, thereby controlling their oxygen consumption, they can stay underwater for a long time, often twice as much as ordinary people.
 
-当然，最令人惊讶的是他们的眼睛。他们可以在水下保持良好的、甚至更好的视力。因为他们学会了如何控制自己的瞳孔尺寸，能够把瞳孔缩小 22%。而一直以来，人们认为瞳孔的收缩尺度是固定的（由人类的基因决定的），并且应该是不受意识控制的，受制于 “自主神经系统”。
+Of course, the most surprising thing is their eyes. They can maintain good, and even better, vision underwater. This is because they have learned how to control the size of their pupils, being able to shrink their pupils by 22%. All along, people have believed that the contraction scale of the pupil is fixed (determined by human genes), and it should not be consciously controlled, subject to the "autonomic nervous system."
 
-科学家们认为，这不是 “基因突变” 的结果，而是大脑的 “可塑性”（Plasticity）造成的。因为科学家 Anna Gislen 以及她的同伴把海洋吉普赛人带到欧洲，很快就教会了一群瑞典孩子如何收缩瞳孔。现在科学家们相信，大脑的可塑性极强，并且从始至终一直存在着这种可塑性。一切来自外部的刺激（尤其是系统 的训练）都会对我们的大脑产生影响，而大脑的结构和功能都会随之发生变化。
+Scientists believe that this is not the result of a "genetic mutation," but the "plasticity" of the brain. Because scientist Anna Gislen and her colleagues brought the Sea Gypsies to Europe, they quickly taught a group of Swedish children how to constrict their pupils. Now scientists believe that the brain has strong plasticity and has always maintained this plasticity from beginning to end. All external stimuli (especially systematic training) will affect our brains, and the structure and function of the brain will change accordingly.
 
-古人观察说，“非我族类，其心必异”。从这个意义上是正确的，因为由此看来，文化这个东西显然在不停地塑造受这个文化影响的人们的大脑。一直以来被 认为是 “硬件” 局限的问题，现在已经清楚地被证明（至少部分是）是 “软件” 开发问题。我们的大脑就好像一台神奇的计算机 —— 因为它的硬件甚至有能力去 “适应” 安装进去的 “软件”。
+Ancient people observed that, "If they are not of my race, their hearts must be different." From this point of view, it is correct, because it seems that culture is constantly shaping the brains of people affected by this culture. What has always been considered a "hardware" limitation has now been clearly proven (at least in part) to be a "software" development problem. Our brain is like a magical computer - because its hardware even has the ability to "adapt" to the installed "software."
 
-之所以科学家们推断说海洋吉普赛人的 “特异功能” 不是 “基因突变” 的结果，主要根据来自两个方面：
+The reason why scientists infer that the "special function" of the Sea Gypsies is not the result of a "genetic mutation" is mainly based on two aspects:
 
-1. 研究表明，几万年以来，人类大脑的构造几乎没有发生过任何变化；
-2. 这种能力是在一代人之间就可以学会的，无需遗传积累。
+1. Research shows that for tens of thousands of years, the structure of the human brain has hardly changed;
+2. This ability can be learned within one generation without the need for genetic accumulation.
 
 ![](images/figure04.png)
 
- 近一百年来，全球各地都发现了大量的 “洞穴壁画”（Cave Painting）。经碳同位素分析，这些壁画最久远的是三万年前的作品，最近的也是约一万年之前的作品。而这些作品往往让现代画家们惊讶，甚至沮丧。毕加索在 1940 年参观当时新发现的位于法国多尔多涅镇的 Lascaux 洞穴之时，看到这些壁画（上图是其中之一），多少有些失落，提起所谓现代艺术，评价道 “我们其实啥都没学会。[^5]”
+In the past hundred years, a large number of "cave paintings" have been discovered all over the world. According to carbon isotope analysis, the oldest of these murals are works from thirty thousand years ago, and the most recent are about ten thousand years ago. These works often surprise and even frustrate modern painters. When Picasso visited the newly discovered Lascaux cave in the town of Dordogne, France in 1940, he saw these murals (one of them is shown in the picture above), and he was somewhat lost. Speaking of so-called modern art, he commented, "We have actually learned nothing."
 
-事实上，这并不是坏消息。相反，它恰好是最好的好消息。几万年前人们能够做出这样神奇的作品，说明那时人类的大脑就拥有足够的潜力，而今天我们的发展和进步，某种意义上就是开发这种潜力的结果。
+In fact, this is not bad news. On the contrary, it is the best good news. People could make such magical works tens of thousands of years ago, indicating that the human brain at that time had sufficient potential, and our development and progress today, in a sense, is the result of developing this potential.
 
-Anna Gislen 让一群欧洲孩子在八个月内就学会了像海洋吉普赛人一样收缩瞳孔，[^6]证明了这种能力并非由遗传获得。也许大多数人看不出这个证明的具体现实意义，但是对于第二语言习得者来说，这无疑是意义非凡的发现。一直以来，科学界就存在着争论：“语言能力到底是不是天生的？”
+Anna Gislen taught a group of European children to constrict their pupils like the Sea Gypsies in just eight months, proving that this ability is not inherited. Perhaps most people can't see the specific practical significance of this proof, but for second language learners, this is undoubtedly a significant discovery. For a long time, there has been a debate in the scientific community: "Is language ability innate?"
 
-其实，根本无需争论。很显然，语言能力并非天生的，而是后天习得的。事实上，语言文字的出现迄今为止也不过几千年而已，之前的人类大脑并非没有能力处理语言文字，而是没有语言文字可供处理。事实上，科学家们早就发现他们可以在一代之间就能教会那些原始部落的人使用 “新” 的语言和文字。而我国的扫盲工作，本质上来看也是一样的道理。与其他动物相比，人类的语言能力更强是因为大脑容量更大，潜力更广。很多科学家都成功做到教会猴子或者其他动物一些人类的语言──只不过，它们记忆力太差，潜力有限，所以不大可能达到人类的境界而已。
+In fact, there is no need to argue. Obviously, language ability is not innate, but acquired. In fact, the emergence of language and text has only been a few thousand years so far, and the human brain before that was not incapable of processing language and text, but there was no language and text available for processing. In fact, scientists have long discovered that they can teach people in primitive tribes to use "new" languages and texts within a generation. The same is true for our country's literacy work. Compared with other animals, humans have stronger language ability because the brain has a larger capacity and wider potential. Many scientists have successfully taught monkeys or other animals some human languages - it's just that their memory is too poor and their potential is limited, so they are unlikely to reach the human realm.
 
-如果说，1) 大脑是可塑的；2) 语言能力是后天习得的，那么理论上来讲，任何人都可以习得任何语言才对。可事实上看起来并非如此。而 “关键期” 理论又给希望蒙上了一层阴影。因为按照关键期的说法，大脑只在最初的一段时间里是可塑的。不过，二三十年之后，终于有科学家证明：
+If it is said that, 1) the brain is plastic; 2) language ability is acquired, then theoretically, anyone can learn any language. But it doesn't seem to be the case in practice. And the "critical period" theory has cast a shadow on hope. Because according to the critical period theory, the brain is plastic only in the initial period. However, after two or three decades, scientists have finally proven:
 
-1. 大脑是可塑的；
-2. 并且它自始至终都是可塑的；
-3. 甚至它还会重新组织自己（Reorganizing），通过恰当的训练，它能用另外一个区域习得已被毁坏区域的能力……
+1. The brain is plastic;
+2. And it is plastic from beginning to end;
+3. Even it can reorganize itself (Reorganizing), through proper training, it can use another area to acquire the ability of the damaged area...
 
-只不过，这个证明过程格外地不顺利。
-请读者猜猜下图中，这个正在[美国UAB康复中心]( http://www.uabhealth.org)治疗的小女孩受伤的是左臂还是右臂？
+However, this proof process is particularly difficult.
+Can the reader guess from the picture below, is the little girl being treated at the [American UAB Rehabilitation Center](http://www.uabhealth.org) injured in her left arm or right arm?
 
 ![](images/figure05.png)
 
-其实她的左臂没有受伤，而之所以把左臂固定起来就是因为那是一条没有受伤的手臂，而右臂才是受伤、需要通过训练恢复的 …… 咦？这是怎么回事儿？可是从生理上来看，大脑受损的部分是没办法恢复的，她又怎么能通过训练来让已经受伤的右臂恢复正常呢？
+In fact, her left arm was not injured, and the reason why her left arm was fixed was because it was an uninjured arm, and the right arm was the injured one that needed to be recovered through training... Huh? What's going on? But from a physiological point of view, the damaged part of the brain cannot be recovered, so how can she recover the already injured right arm through training?
 
-大脑的神奇之处在于它可以利用其它未受损的部分重新习得受损部分的功能（学术上叫做 “remap”、“reroute”、或者 “rewire”）。之所以要把行动自如的左臂绑起来，是因为如果不这么做的话，面对任何需求，大脑中负责控制左臂的部分（或称为 “左臂脑图”）都会 “优先启动”；因为这部分是未受损的，而原本控制右臂的部分已经受损了。换言之，这时，大脑中尚不存在一个能够控制右臂的部分。而把左臂固定住之后，尽管负责控制左臂的大脑部分依然 “优先启动”，但实际上却无法自如操纵左臂。而在这种情况下，就可以通过让大脑的其他部分慢慢专注于右臂，进而习得控制右臂的方法 —— 即，可以通过这样的训练，慢慢使大脑未受损的某个区域 “习得” 原本只有那个已经受损的区域所负责的功能。没有多久，这个女孩子的右臂就恢复了，活动起来与原来没什么两样。可是她的大脑不再是原来的样子了，尽管某一部分受损且不可恢复，但她大脑的另外一个区域已经被开发，能够别无二致地完成受损区域曾经可以完成的功能。
+The magic of the brain is that it can use other undamaged parts to relearn the function of the damaged part (academically called "remap", "reroute", or "rewire"). The reason why the freely moving left arm needs to be tied up is that if it is not done, in the face of any demand, the part of the brain that controls the left arm (or called "left arm brain map") will "start first"; because this part is undamaged, and the part that originally controlled the right arm has been damaged. In other words, at this time, there is no part in the brain that can control the right arm. But after the left arm is fixed, even though the part of the brain that controls the left arm still "starts first", it can't actually manipulate the left arm freely. And in this case, you can let other parts of the brain slowly focus on the right arm, and then learn to control the right arm - that is, through such training, you can slowly make an undamaged part of the brain "learn" the function originally controlled by the damaged part. Before long, the girl's right arm recovered, and it was no different from the original when it moved. But her brain is no longer what it used to be, although a part of it is damaged and cannot be recovered, but another part of her brain has been developed and can complete the function that the damaged part could originally complete without any difference.
 
-仅仅在 2004 年之前，这种疗法是完全不可想象的。这种最初看起来匪夷所思的疗法叫做 “CI 活动疗法”（Constraint-Induced Movement Therapy，简称 “CI” 或者 “CIMT”）的发明者是[Edward Taub](http://en.wikipedia.org/wiki/Edward_Taub)教授。今天，这种疗法渐渐开始在全世界范围内普及，帮助无数偏瘫[^7]患者找回原来的自我和生活。可是 Taub 教授的研究经历却一波三折。为了找到偏瘫的治疗方案，他需要人为地使猴子偏瘫（故意破坏猴子大脑的某个区域），而后再想办法通过训练让那些猴子从偏瘫状态中恢复过来 …… 上个世纪八十年代初，他被一个动物权益保护组织告上法庭，导致实验室被关闭，经费被冻结，最后甚至失去了工作，几乎所有的人都对他避之唯恐不及。接下来的六年时间里，Taub 教授的所有时间精力都被耗费在为自己辩护上 —— 巨大的社会压力使得他甚至找不到愿意为他辩护的律师，所以他只好自己做自己的律师。案发之前，Taub 教授总计有大约 10 万美元的存款，到他最终胜诉洗清所有罪名之时，他只剩下了大约四千美元的积蓄。当然，时至今日，基于他的理论及其实践为人类创造的巨大价值，Taub 教授被公认为当今全球最杰出的科学家之一。
+Just before 2004, this therapy was completely unimaginable. This initially incredible therapy is called "CI Activity Therapy" (Constraint-Induced Movement Therapy, abbreviated as "CI" or "CIMT") and its inventor is [Edward Taub](http://en.wikipedia.org/wiki/Edward_Taub) professor. Today, this therapy is gradually being popularized worldwide, helping countless hemiplegic patients to regain their original self and life. But Professor Taub's research experience has been ups and downs. In order to find a treatment plan for hemiplegia, he needs to artificially make monkeys hemiplegic (deliberately damage a part of the monkey's brain), and then try to train those monkeys to recover from hemiplegia... In the early 1980s, he was sued by an animal rights protection organization, causing the laboratory to be closed, funds to be frozen, and finally even lost his job, and almost everyone avoided him. In the next six years, all of Professor Taub's time and energy were consumed in defending himself - the huge social pressure made him unable to find a lawyer willing to defend him, so he had to be his own lawyer. Before the case, Professor Taub had a total of about 100,000 US dollars in savings. By the time he finally won the lawsuit and cleared all charges, he only had about four thousand dollars in savings. Of course, today, based on the huge value he has created for mankind with his theory and practice, Professor Taub is recognized as one of the most outstanding scientists in the world today.
 
-Taub 教授 CI 疗法的成功首先证明区域论是错误的（至少不是完全正确的）—— 大脑可以重新组织自己；其次证明大脑自始至终都是可塑的，甚至可以重组 —— 即，用一个新的脑图完成原本由受损的脑图完成的功能；最后证明的也是最重要的：脑图之间存在着相互竞争 —— 所以，为了治好受损的右臂，要先把未受损的左臂给限制住。如果不把未受损的左臂给限制住的话，那么左臂的脑图将永远处于优势，进而，使得大脑对已经受损的右臂产生 “习得之弃用”（Learned Nonuse）[^8]。
+The success of Professor Taub's CI therapy first proves that regionalism is wrong (at least not completely correct) - the brain can reorganize itself; secondly, it proves that the brain is plastic from beginning to end, and even can be reorganized - that is, use a new brain map to complete the function originally completed by the damaged brain map; the last and most important proof is: there is competition between brain maps - so, in order to cure the damaged right arm, you must first restrict the undamaged left arm. If the undamaged left arm is not restricted, then the brain map of the left arm will always be dominant, and then, the brain will produce "learned non-use" (Learned Nonuse) for the already damaged right arm.
 
-这最后一条可以用来清楚地解释原本用 “关键期论” 错误地解释的现象：为什么成年后学习第二语言显得更为困难？
+This last point can be used to clearly explain the phenomenon that was wrongly explained by the "critical period theory": why is it more difficult to learn a second language after adulthood?
 
-成年之后，第二语言学习显得更为困难的原因并不在于关键期论所说的 “此后大脑不再可塑”，而实际上在于这是第二语言所使用的脑图要与已经形成强大势力的母语脑图竞争 —— 当然越来越难[^9]。然而，恰恰是这样的认识给了人们希望。目前，有很多教育学家开始提倡 “浸泡式学习”，有一定的依据，也有相当的效果。所谓 “浸泡式学习”，就是在特定的时间、特定的环境里，强迫学生只使用第二语言，禁止使用母语，进而刺激大脑加速构建新的脑图。风靡全球的罗赛塔石碑语言学习软件（[Rosetta Stone](https://www.rosettastone.com)）就是基于这个原理开发出来的。
+The reason why learning a second language seems more difficult after adulthood is not due to the "critical period" theory, which suggests that the brain is no longer plastic after this period. In fact, it is because the brain map used for the second language has to compete with the already powerful mother tongue brain map - of course, this becomes increasingly difficult. However, it is precisely this understanding that gives people hope. Currently, many educators are advocating "immersive learning", which has a certain basis and considerable effect. The so-called "immersive learning" is to force students to only use the second language and prohibit the use of the mother tongue in a specific time and environment, thereby stimulating the brain to accelerate the construction of a new brain map. The globally popular Rosetta Stone language learning software ([Rosetta Stone](https://www.rosettastone.com)) is developed based on this principle.
 
-对于第二语言习得者来说，最直观、最有意义的好消息是：
-1. 什么时候开始学都不晚；
-2. 只要方法得当，并加以时日，一定能学好。
-3. 甚至，第二语言也可能超越母语成为主导语言。
+For second language learners, the most intuitive and meaningful good news is:
+1. It's never too late to start learning;
+2. As long as the method is appropriate and given time, you can definitely learn well.
+3. Even, the second language may surpass the mother tongue and become the dominant language.
 
-（当然，接下来的内容中，读者会知道有一个比 “学” 更好的方法……）
-在学习这件事儿是，相信自己一定能学好，并不一定保证真的能够学好；但是，反过来，如果相信自己不可能学好，那最终真的就不可能学好。所谓 “自证预言”（[Self-fulfilling prophecy](http://en.wikipedia.org/wiki/Self-fulfilling_prophecy) ）就是这样，总是在负面起作用。事实上，“语言习得关键期” 之说四十多年来在全球造成了难以估计的恶果，不计其数的人在不经意之间把 “假说” 当成了 “定论”，相信自己不可能学好，进而成为 “自证预言” 注定的受害者。
+(Of course, in the following content, readers will know that there is a better method than "learning"......)
+In learning this matter, believing that you can definitely learn well does not necessarily guarantee that you can really learn well; but on the contrary, if you believe that you cannot learn well, then you will definitely not be able to learn well in the end. The so-called "self-fulfilling prophecy" ([Self-fulfilling prophecy](http://en.wikipedia.org/wiki/Self-fulfilling_prophecy)) is like this, always working negatively. In fact, the "critical period of language acquisition" has caused incalculable harm worldwide for more than forty years. Countless people have inadvertently turned "hypothesis" into "conclusion", believing that they cannot learn well, and thus become victims of "self-fulfilling prophecy".
 
-“我没天分”、“我就学不好”、“英语太难了” 之类的话，甚至这类的念头，其实都是强大的诅咒。它们有着既强大又邪恶的力量。观察一下身边的人，你会惊讶地发现很多学了英语很多年的人，说得最流利发音最标准的一句英语竟然是：“I’m sorry, my English is poor…” 如果还有前缀的话，要么是 “(I beg your) Pardon…” 或者就是用错的 “Excuse me…”…… 从这样的例子里我们就可以看到那 “诅咒” 的强大和无所不在。
+"I have no talent", "I just can't learn well", "English is too difficult" and the like, even such thoughts, are actually powerful curses. They have both powerful and evil power. Observe the people around you, you will be surprised to find that many people who have learned English for many years, the most fluent and standard English sentence is: "I’m sorry, my English is poor..." If there is a prefix, either it is "(I beg your) Pardon..." or it is the wrong "Excuse me..."... From such examples, we can see the power and omnipresence of that "curse".
 
-[罗伯特•莫顿](http://en.wikipedia.org/wiki/Robert_K._Merton)教授发现了这个现象，为这类现象取了个名字叫做 “自证预言”（Self-fulfilling prophecy）。
+Professor [Robert Morton](http://en.wikipedia.org/wiki/Robert_K._Merton) discovered this phenomenon and named it "self-fulfilling prophecy".
 
-> 当人们相信某件事情会发生（事实上那件事情原本并不见得一定会发生），那么此事最终真的会发生。
+> When people believe that something will happen (in fact, that thing may not necessarily happen), then this will eventually really happen.
 
-西方神话里充满了这种故事：
+Western mythology is full of such stories:
 
-> 底比斯（Thebes）国王拉伊奥斯（Laius）与王后约卡斯塔（Jocasta）生下俄狄浦斯之后得到神谕说，这个孩子会终究会弑父娶母。为了躲避厄运，拉伊奥斯刺穿了新生儿的脚踝（oidipous在希腊语中的意思是“肿胀的脚”），令牧人将孩子丢弃在野外等死。
+> After Thebes (Thebes) King Laius (Laius) and Queen Jocasta (Jocasta) gave birth to Oedipus, they received a divine oracle saying that this child would eventually kill his father and marry his mother. In order to avoid misfortune, Laius pierced the newborn's ankle (oidipous in Greek means "swollen foot"), and let the shepherd abandon the child in the wild to die.
 
-> 可是牧人于心不忍，于是，就把孩子偷偷送给了柯林斯（Corinth）的国王波吕波斯（Polybus）。波吕波斯很喜欢这个孩子，就把他当作亲生孩子抚养。俄狄浦斯长大之后，从神殿得知神谕，了解到自己最终会弑父娶母；而他却不知道国王波吕波斯与王后并非自己的亲生父母。为了避免神谕成真，他便离开柯林斯并发誓永远不在回来。
+> But the shepherd couldn't bear it, so he secretly sent the child to the king of Corinth (Corinth), Polybus (Polybus). Polybus liked this child very much, so he raised him as his own child. After Oedipus grew up, he learned from the temple oracle that he would eventually kill his father and marry his mother; but he did not know that King Polybus and the queen were not his biological parents. In order to avoid the oracle from coming true, he left Corinth and swore never to return.
 
-> 后来，俄狄浦斯在流浪的过程中，在一个岔路口与一群陌生人发生冲突，失手杀死了人，而其中就有他的亲生父亲拉伊奥斯。而此后又因为解开了狮身人面兽斯芬克斯（Sphinx）的谜题而继承了底比斯的王位，娶了国王的遗孀为妻。
+> Later, Oedipus had a conflict with a group of strangers at a fork in the road during his wandering, and accidentally killed people, including his biological father Laius. And then because he solved the riddle of the Sphinx (Sphinx), he inherited the throne of Thebes and married the widow of the king.
 
-> 俄狄浦斯登上王位之后，底比斯不断发生灾祸，包括瘟疫。于是俄狄浦斯求助于神祇。先知提瑞西阿斯（Tiresias）揭示之后，俄狄浦斯才知道他是拉伊奥斯的儿子，弑父娶母的不幸命运最终应验。震惊不已的约卡斯塔羞愧地上吊自杀，而同样悲愤不已的俄狄浦斯，则刺瞎了自己的双眼。
+> After Oedipus ascended the throne, Thebes kept suffering from disasters, including plagues. So Oedipus sought help from the gods. After the prophet Tiresias (Tiresias) revealed, Oedipus knew that he was the son of Laius, and the unfortunate fate of killing his father and marrying his mother was finally fulfilled. The shocked Jocasta hanged herself in shame, and the equally sad Oedipus blinded his own eyes.
 
-而莫顿教授用银行挤兑的例子说明自证预言的作用机理：
+And Professor Morton used the example of a bank run to explain the mechanism of self-fulfilling prophecy:
 
-> 一家银行本来运作得好好的，但不知怎么就开始有谣言说这家银行要倒闭了。流言越传越广，越来越多的人开始信以为真，开始有人跑到银行把自己的存款提走；进而恐慌开始蔓延，并且变得真实，更多的人冲进银行提走自己的存款……最终，挤兑发生了，银行真的倒闭了。
+> A bank was operating well, but somehow rumors began to say that the bank was going to go bankrupt. The rumors spread more and more widely, more and more people began to believe it to be true, and some people started to run to the bank to withdraw their deposits; and then panic began to spread and become real, more people rushed into the bank to withdraw their deposits... In the end, a run on the bank occurred, and the bank really went bankrupt.
 
-自证预言的运作机理颇有些令人迷惑：好事儿很少心想事成，坏事往往却竟然可以无中生有。但也不是不能解释清楚：也许这与人类大脑中根深蒂固的 “恐惧情绪” 心理有关。相对来看，喜悦会使一个人停下行动去享受喜悦，而恐惧却恰恰相反，会引发一个人马上采取行动去避免危险 —— 尽管有的时候事与愿违。事实上，出于恐惧的决策几乎总是事与愿违。
+The operation mechanism of self-fulfilling prophecy is somewhat confusing: good things rarely come true as expected, but bad things often can come out of nothing. But it is not impossible to explain clearly: perhaps this is related to the "fear emotion" psychology deeply rooted in the human brain. Relatively speaking, joy will make a person stop acting to enjoy joy, but fear is just the opposite, it will cause a person to take action immediately to avoid danger - even if sometimes it is contrary to wish. In fact, decisions made out of fear are almost always contrary to wish.
 
-这种诅咒一旦启动，就几乎无法阻止它起作用，这正是它的可怕之处。我们的幸运在于，生活在一个已经证明这种诅咒不存在的时代──感谢 Edward Taub 等诸多科学家们的不懈努力，我们终于清楚地知道这种诅咒确实是不存在的，那些曾经的恐惧是没有必要的，也感谢这些年来我的学生，让我清楚地看到无数成功的事实，使我、他们之后很多的学生、以及我的读者从 “暗黑时代” 中走出来，朝霞满天。
+Once this curse is activated, it is almost impossible to prevent it from taking effect, which is precisely what makes it terrifying. We are fortunate to live in an era that has proven this curse does not exist. Thanks to the relentless efforts of Edward Taub and many other scientists, we finally know for sure that this curse does not exist, and the fears of the past were unnecessary. I am also grateful to my students over the years, who have clearly shown me countless successful facts, allowing me, many of their subsequent students, and my readers to emerge from the "Dark Ages" into a sky full of morning glow.
 
-[^4]: “中风”其实是中国传统医疗概念，在现代医学概念中，这种病症叫做“Stroke”：血管因某种原因（比如存在血栓）突然阻塞而无法向大脑供血，于是就会引发部分脑细胞死亡，进而脑损伤会导致肢体的某些部分失去知觉。
+[^4]: "Stroke" is actually a traditional Chinese medical concept. In modern medical terms, this condition is called "Stroke": The blood vessels suddenly become blocked due to some reason (such as the presence of a thrombus) and cannot supply blood to the brain, which then causes some brain cells to die, and the resulting brain injury causes some parts of the body to lose sensation.
 
-[^5]:  "[We have discovered nothing.](http://news.bbc.co.uk/2/hi/science/nature/1577421.stm)"
+[^5]: "[We have discovered nothing.](http://news.bbc.co.uk/2/hi/science/nature/1577421.stm)"
 
 [^6]: Visual training improves underwater vision in children , Vision Research, Volume 46, Issue 20, October 2006, Pages 3443-3450
 
-[^7]: 在中文语境（或中医语境）中，偏瘫就是中风的症状；西医把这个叫做“Stroke”──之前提到过。
+[^7]: In the Chinese context (or traditional Chinese medicine context), hemiplegia is a symptom of stroke; Western medicine calls this "Stroke" - as mentioned before.
 
-[^8]: 这又是一个足以改变你的观念的重要概念，不是么？
+[^8]: This is another important concept that is enough to change your perception, isn't it?
 
-[^9]: 之前提到过每个多语使用者都有一种“主导语言”。主导语言的形成，也是基于这个原因，因为脑图之间存在竞争。
+[^9]: It was mentioned before that every multilingual user has a "dominant language". The formation of the dominant language is also based on this reason, because there is competition between brain maps.
 
 ## 6. 不要再 “学” 英语，你就该 “用” 英语！
 
