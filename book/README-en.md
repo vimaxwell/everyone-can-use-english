@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- [Introduction](README.md)
-- [Chapter 1: The Starting Point](chapter1.md)
-- [Chapter 2: Speaking](chapter2.md)
-- [Chapter 3: Pronunciation](chapter3.md)
-- [Chapter 4: Reading Aloud](chapter4.md)
-- [Chapter 5: Dictionary](chapter5.md)
-- [Chapter 6: Grammar](chapter6.md)
-- [Chapter 7: Intensive Reading](chapter7.md)
-- [Chapter 8: Reminders](chapter8.md)
-- [Epilogue](end.md)
+- [Introduction](README-en.md)
+- [Chapter 1: The Starting Point](chapter1-en.md)
+- [Chapter 2: Speaking](chapter2-en.md)
+- [Chapter 3: Pronunciation](chapter3-en.md)
+- [Chapter 4: Reading Aloud](chapter4-en.md)
+- [Chapter 5: Dictionary](chapter5-en.md)
+- [Chapter 6: Grammar](chapter6-en.md)
+- [Chapter 7: Intensive Reading](chapter7-en.md)
+- [Chapter 8: Reminders](chapter8-en.md)
+- [Epilogue](end-en.md)
 
 ## Preface
 
