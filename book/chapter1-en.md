@@ -242,159 +242,142 @@ Once this curse is activated, it is almost impossible to prevent it from taking 
 
 [^9]: It was mentioned before that every multilingual user has a "dominant language". The formation of the dominant language is also based on this reason, because there is competition between brain maps.
 
-## 6. 不要再 “学” 英语，你就该 “用” 英语！
+## 6. Stop "Learning" English, You Should "Use" English!
 
-语言是人类最宝贵的工具，然而，有些时候，语言也有副作用，给使用它的人带来限制。从某种意义上毫不夸张地说，“学” 这个字很可能实际上是很多人语言习得路上的最大障碍之一。因为人们往往对 “学” 这个字充满了敬畏，甚至常常是不必要的敬畏。
+Language is the most precious tool of mankind. However, sometimes, language can also have side effects, imposing limitations on its users. It's not an exaggeration to say that, in a certain sense, the word "learn" might actually be one of the biggest obstacles on the path of language acquisition for many people. This is because people often fill the word "learn" with awe, even often unnecessary awe.
 
-这种敬畏体现在大多数人总是假定不论是什么事情，都要先 “学” 好了之后才能 “用”。这个假定在很多情况下确实是正确的。比如，如果你想以医生为职业，那么你必须通过考试获得行医资格之后被允许救死扶伤；如果你想以律师为职业，那么你也必须通过考试获得律师资格之后才可以去匡扶正义。哪怕再简单一些的技能也可能如此，比如，你买了一辆车想将其作为代步工具，那么就必须通过考试获得驾照之后才被允许开车上路 —— 无证驾驶是违法的。
+This awe is reflected in the fact that most people always assume that no matter what it is, they must first "learn" it well before they can "use" it. This assumption is indeed correct in many cases. For example, if you want to be a doctor, you must pass an exam to obtain a medical license before you are allowed to save lives; if you want to be a lawyer, you must also pass an exam to obtain a lawyer's license before you can uphold justice. Even simpler skills may be like this, for example, if you buy a car and want to use it as a means of transportation, you must pass an exam to obtain a driver's license before you are allowed to drive on the road - driving without a license is illegal.
 
-然而，这个假定并不适用于英语这项技能的习得及应用（或者说，其他的第二语言、甚至第三语言）。司机、医生、律师需要通过考试才能应用所需技能的重要原因在于这些技能的应用如若出现差错很有可能会对他人造成伤害 —— 甚至可能是无法挽回的。但是， 英语这项技能的应用在大多数情况下很难对他人造成伤害。你英文发音再难听，听的人也不会因此猝死；你英文语法错误再多，读的人也不会因此疼痛；别人对你说英文你没听懂或者给你看英文你没读懂，若非极端情况，你也不会因此就从此真的无颜见人。
+However, this assumption does not apply to the acquisition and application of English skills (or other second languages, or even third languages). The important reason why drivers, doctors, and lawyers need to pass exams to apply the required skills is that if these skills are applied incorrectly, they are likely to cause harm to others - and it may even be irreparable. But, the application of English skills in most cases is unlikely to cause harm to others. If your English pronunciation is hard to listen to, the listener will not die suddenly; if your English grammar errors are too many, the reader will not feel pain; if others speak English to you and you don't understand, or show you English and you can't read it, unless it's an extreme situation, you won't really lose face from then on.
 
-而事实上，无论哪一种知识都必须经过实践才能够真正习得。即便医生必须先获得行医资格才能挂牌行医，但是，在此之前，他们都要经过很多年的实习才行──只不过，为了安全起见，他们的实习是在严格监管之下进行的。为了获得驾照，一定要有机会开车才能学会，只不过，通常情况下，在获得驾照之前基本上只能在驾校里开车……
+In fact, any kind of knowledge must be practiced to truly acquire it. Even if doctors must first obtain a medical license to practice medicine, they must go through many years of internship before that - it's just that, for safety reasons, their internships are conducted under strict supervision. In order to obtain a driver's license, you must have the opportunity to drive to learn, but usually, before obtaining a driver's license, you can basically only drive in a driving school...
 
-只 “学” 不 “用”（这是大多数中国学生的写照）的下场就是在十几年之后依然在学依然无用（这是大多数中国学生的现实）。
+Only "learning" and not "using" (this is the portrayal of most Chinese students) will result in still learning and still useless after more than ten years (this is the reality of most Chinese students).
 
-既然 “用” 英语不会伤害任何人，既然不 “用” 就 “学” 不好，那莫不如从一开始就直接 “用”。
+Since "using" English will not harm anyone, and if you don't "use" it, you can't "learn" it well, then it's better to just "use" it from the beginning.
 
-也可以这样理解：只有不断地 “用”，才能真正地 “学”，因为所有技能的习得，都要靠试错（Trial and Error）。很多人宁愿 “学一辈子”，却坚持 “一辈子不用” 的原因就在于害怕犯错。儿时犯错往往招致惩罚，成年之后，就算没有来自他人的惩罚，还有因为犯错而导致自己自卑和尴尬，所以，很多人是 “不惜一切代价” 避免出错的。然而，要知道知识的习得过程离不开试错，没有试错，就不可能有全面而真实的进步。所以，要知道犯错是正常的，甚至是不可或缺的。做事的时候，出错是必然的，如果正在做事却一点错都没有，那不是做事──那是在做梦。
+It can also be understood this way: only by constantly "using" can you truly "learn", because the acquisition of all skills relies on trial and error. Many people would rather "learn for a lifetime", but insist on "not using it for a lifetime" because they are afraid of making mistakes. Making mistakes in childhood often leads to punishment, and when they grow up, even if there is no punishment from others, there is also self-abasement and embarrassment caused by making mistakes, so many people are "at all costs" to avoid making mistakes. However, you should know that the process of acquiring knowledge cannot be separated from trial and error, without trial and error, there can be no comprehensive and real progress. So, you should know that making mistakes is normal, and even indispensable. When doing things, making mistakes is inevitable, if you are doing things but there are no mistakes at all, that's not doing things - that's dreaming.
 
-把 “学” 改为 “用” 是很重要的，尽管看起来并没有什么了不起。书名《人人都能用英语》中的 “用” 字就是这个用意。而之前的章节标题中，我们的问题是 “我们有可能把外语用的比母语更好么？” 而不是 “我们有可能把外语学得比母语更好么？” 也是给予同样的考虑。
+Changing "learning" to "using" is very important, although it doesn't seem to be anything remarkable. The word "use" in the book title "Everyone Can Use English" is this intention. And in the previous chapter titles, our question is "Can we use a foreign language better than our mother tongue?" instead of "Can we learn a foreign language better than our mother tongue?" is also given the same consideration.
 
-至于在哪儿用、怎么用，后面的章节中我们将从多个角度反复审视。然而，原则却很简单：你是怎么用母语的，你就应该怎么用英语。要对 “使用外语” 等闲视之──所谓 “使用一种语言”，本质上来看，不就是说话识字而已么？肯定不简单，但也绝对没有那么难。
+As for where to use and how to use, we will examine it from multiple angles in the following chapters. However, the principle is very simple: how you use your mother tongue, you should use English. You should take the "use of a foreign language" lightly - the so-called "use of a language", in essence, isn't it just speaking and recognizing words? It's definitely not simple, but it's definitely not that difficult.
 
-## 7. 英文真的有用么？
+## 7. Is English Really Useful?
 
-好像每个人都知道英文很有用，必须学，并且必须学好。可是，你真的相信么？事实上，大多数人相信的是另外一回事儿。
+It seems that everyone knows English is useful, must be learned, and must be learned well. But do you really believe it? In fact, most people believe in something else.
 
-我与无数的学生沟通，最终的结果是，大多数人 “学” 了英文十数年之后在现实世界中的应用只不过是考试而已。一路下来考了无数的试，中考、高考、四级、六级、考研、雅思、托福、SAT、GRE、GMAT……这过程中，什么时候不再考了，英文也就扔下了。
+I have communicated with countless students, and the final result is that most people "learn" English for more than a decade, and its application in the real world is nothing more than exams. Along the way, countless tests have been taken, including middle school exams, college entrance exams, CET-4, CET-6, postgraduate entrance exams, IELTS, TOEFL, SAT, GRE, GMAT... During this process, when there are no more exams, English is also abandoned.
 
-大多数人就是这样的：无论父母、老师、甚至整个社会如何灌输，他们骨子里其实并不相信英文有用。只不过，很多的时候，这种 “不相信” 并不那么明显，甚至非常隐蔽，很多人甚至在不断声称 “我对英文非常感兴趣” 的同时，其实并不相信英文真的不可或缺。
+Most people are like this: no matter how parents, teachers, or even the whole society instill, they actually do not believe in their bones that English is useful. However, many times, this "disbelief" is not so obvious, even very hidden, many people even constantly claim "I am very interested in English", but they do not believe that English is really indispensable.
 
-而现实也确实无时不刻地在向我们布道：没有英文地球照样转，生活照样缤纷多彩。看看自己的身边吧。你父母都精通英文么？也许不是，可他们不都过得好好的么？你那个生意上很成功的远方亲戚懂英文么？不懂。甚至，可能都没有受过所谓的高等教育，那不还是好好的么？不懂英文怎么了？不懂就不懂，大不了请个翻译，翻得不好就再换一个……
+And reality is indeed preaching to us all the time: without English, the earth still turns, and life is still colorful. Look around yourself. Are your parents proficient in English? Maybe not, but aren't they all living well? Does your distant relative who is very successful in business understand English? No. Even, he may not have received so-called higher education, isn't he still okay? What's wrong with not understanding English? If you don't understand, you don't understand. If it's a big deal, hire a translator. If the translation is not good, change another one...
 
-道理再清楚不过：如果有一样东西你必须学，它不可或缺，你学不会就无法继续生活 …… 那这样东西不用任何人逼你，不用任何人向你灌输 “它太有用了！”，你都会玩命地去搞定它。假设有人挡住你的去路，阻挠你学那个不可或缺的它，你甚至可能为此拼命……
+The truth couldn't be clearer: if there is something you must learn, it is indispensable, and you can't continue to live if you can't learn it... Then you don't need anyone to force you, you don't need anyone to instill in you "it's too useful!", you will try your best to get it done. Suppose someone blocks your way and obstructs you from learning that indispensable thing, you might even fight for it...
 
-生活中，随处可见 “自己并不知道自己并不相信” 的例子。这也是大多数父母教育孩子失败的重要原因之一。
+In life, there are examples of "I don't know that I don't believe" everywhere. This is also one of the important reasons why most parents fail to educate their children.
 
-几乎每个父母都教育自己的孩子 “最好练一手好字”。可事实上，绝大多数父母最终只能不了了之──观察下自己的周边吧，写一手好字的人从来都是极少数（当然，任何领域都只有极少数人做到好）。问题出在哪儿？
+Almost every parent educates their children to "practice good handwriting". But in fact, most parents can only give up in the end - observe your surroundings, people who write good handwriting have always been a minority (of course, only a minority of people do well in any field). Where is the problem?
 
-以下是我在某处读来的一位父亲的苦恼：
+Here is the distress of a father I read somewhere:
 
-> 昨天女儿给我讲，爸爸，我不想学书法了。我这个人很民主，肯定不搞棍棒教育，真拿起棍棒来，我们家也是女儿打我这个“怪兽”，都是中奥特曼的毒太深。于是我问她：是不是觉得写书法很枯燥呢？是的！那我又问她：你想不想成为学校很牛的学生呢？想！那要成为很牛的学生，要不要成绩好？要！每次成绩都考90分能不能成为很牛的学生？（她的成绩目前还不能稳定做到过90）女儿想了半天，我又启发，是不是成绩好的经常考100分？对。每次都考100分难不难？难。但如果你每次能考90分，又会打乒乓球，又会写毛笔字，那是不是不一样？嗯。那这样的小朋友是不是有特长，才很牛？对。那你要不要成为这样的小朋友？要！那是不是应该坚持学好毛笔字？不学！诱导半天，启发失败，看来女儿聪明，知道我绕弯子教育她，虽然六岁不到，但总是逆反回答，也让人头痛。唯小人及女子其为难养也！我这女儿两样都占全了！
+> Yesterday my daughter told me, Dad, I don't want to learn calligraphy. I am very democratic and definitely don't engage in stick education. If I really pick up the stick, in our house, it is also my daughter who beats me, this "monster", all are poisoned by Ultraman. So I asked her: Do you think writing calligraphy is very boring? Yes! Then I asked her again: Do you want to be a very awesome student in school? Want! To be a very awesome student, do you need good grades? Need! Can you become a very awesome student if you score 90 points every time? (Her grades are currently not stable enough to pass 90) The daughter thought for a long time, and I inspired again, isn't it often the good grades that score 100 points? Yes. Is it difficult to score 100 points every time? Difficult. But if you can score 90 points every time, you can play table tennis, and you can write brush words, isn't it different? Hmm. Isn't such a child a special talent, so awesome? Yes. Do you want to be such a child? Want! Shouldn't you insist on learning good brush words? Don't learn! After inducing for a long time, the inspiration failed. It seems that my daughter is smart and knows that I am educating her in a roundabout way. Although she is less than six years old, she always answers in reverse, which also makes people headache. Only small people and women are difficult to raise! My daughter takes up both!
 
-这位父亲 “启发” 失败的原因在于，他一方面向孩子有意识地灌输 “书法很有用”（尽管他的 “尽力启发” 实际上很牵强），但，另外一方面他在无意识地向孩子传递 “书法不好也没啥” 的事实。
+The reason for the father's "inspiration" failure is that on the one hand, he consciously instills in his children that "calligraphy is very useful" (although his "best effort to inspire" is actually very far-fetched), but on the other hand, he unconsciously conveys to his children the fact that "it doesn't matter if calligraphy is not good".
 
-如果，这位父亲是一位喜欢书法，每天都在精练书法，也经常因此常常被人夸奖的人，那么他的女儿可能无需他 “有意启发”，早就开始自愿天天练字了。可事实是相反的：这位父亲自己并不练书法，而女儿也看到父亲书法不怎样也无所谓（却让我练书法──不公平！），这种 “无声的事实” 是很强大的，强大到绝不可掩盖的地步。
+If this father is a person who likes calligraphy, practices calligraphy every day, and is often praised by others because of this, then his daughter may not need him to "consciously inspire", and she has already voluntarily practiced writing every day. But the fact is the opposite: this father does not practice calligraphy himself, and the daughter also sees that it doesn't matter if the father's calligraphy is not good (but let me practice calligraphy - unfair!), this kind of "silent fact" is very powerful, powerful to the point where it cannot be concealed.
 
-曾有人质疑我，“那如果我作为父母，不懂英文的话，按你的说法，我让自己的孩子学英文倒是不行的了？！”
+Someone once questioned me, "So if I am a parent and I don't understand English, according to what you said, it's not okay for me to let my child learn English?!"
 
-父母期望孩子学好任何一样东西，都是天经地义的。可是，仅仅出于好意是不够的。如果仅靠 “一番好意” 就可以成就事情，那这世界该多美好！可惜，现实并非如此。
+It is justified for parents to expect their children to learn anything well. But it is not enough to just have good intentions. If you can accomplish things with "a good intention", how beautiful this world should be! Unfortunately, reality is not the case.
 
-潜移默化的教育最有效。
+Subtle education is the most effective.
 
-高考的时候，我在大学里做英语教授的父亲帮我选择了会计专业，而事实上，我一天的会计都没有做过。我自作主张，在大学毕业之后，做了几年的销售。而后几经辗转，居然跑去从事英语教学。这样的 “巧合” 其实背后有着必然的联系。
+During the college entrance examination, my father, who was an English professor in college, helped me choose the accounting major, but in fact, I have never done accounting for a day. I took the initiative and did sales for a few years after graduating from university. After several twists and turns, I actually went to teach English. This kind of "coincidence" actually has a necessary connection behind it.
 
-因为讲课受学生欢迎，我常常被要求去培训新教师。在培训教师的过程中，我很意外地发现，经常有人（比例远远超出我最初的想象）问我这样的问题：“李老师，你讲了这么多年的课，是不是早就不用再备课了？” 说实话，我很惊讶，他们怎么会问出这样的问题？尤其当遇到师范专业毕业生问这样的问题，我就更是惊诧莫名了──备课怎么可能有尽头呢？讲到老就要备到老啊！
+Because the lectures are popular with students, I am often asked to train new teachers. In the process of training teachers, I was surprised to find that often people (the proportion far exceeds my initial imagination) asked me such a question: "Teacher Li, you have been teaching for so many years, don't you need to prepare for class anymore?" To be honest, I was surprised, how could they ask such a question? Especially when I encounter graduates of normal universities asking such questions, I am even more surprised - how can I not prepare for class?
 
-经过一段时间的反思，我才想明白。从小，我就看到父亲每天晚饭之后都在备课。那教科书的页边页眉早就被密密麻麻的笔记填满，再过两学期，那书里又会多出许多夹页 …… 所以，我从小就以为 “老师都是这样的”（当然现在已经知道其实并非如此）。所以，有一天，我 “竟然” 做了老师，也就按照 “都是那样” 的方式做事 …… 而问我那个问题的人，尽管是师范专业毕业的，他们没见过我父亲那种老师，所以，他们不会像我那样认为 “老师都是那样的”，于是，他们以为的是另外一个样子……
+## 8. When did I start to realize the usefulness of English?
 
-从他人身上获得的这种潜移默化的影响极为强大。看来 “自己相信或者不相信” 的影响，对自己更加潜移默化，影响力更加强大。
+Initially, my English grades were not just bad, they should be correctly described as "very poor". From a young age, I was misunderstood. Many people mistakenly thought that my English grades would be good because my father was an English professor.
 
-2003 年，我开始去健身房。经过一段时间，身边的很多人觉得我去健身房很有效果，于是，也都纷纷报名买了健身卡。我身边的人当然绝大多数是老师。
-我是请健身教练的，那价格不高不低：一小时 150 元。十几位老师之中，只有我一个人请教练。私下里，他们认为我花钱太大手大脚了，另外，他们也觉得一小时 150 元不值。
+But precisely because my father was an English professor, I couldn't learn well! This is not a strange phenomenon, but a common one - look at the actual situation, it's quite common for teachers' children to perform poorly in school; and, the subject the children struggle with is likely the one taught by their parents.
 
-从我的角度，我不太理解为什么这些自身职业为教师的人却不肯花钱请教练。
-观察了很久，也有过几次讨论，我自己有了个结论，尽管这些不肯花钱请教练的人肯定不赞同这个结论：他们不相信教学的作用──尽管他们是老师，他们甚至很可能在课堂上讲的就是自己不相信的东西 …… 别惊讶，尽管你会觉得我多少有些偏激，但我确信很多老师一生都在讲授自己并不相信的东西。所以，潜移默化之中，他们根本不相信健身教练能教他们什么有用的东西，因为他们教别人的东西之中也有很多是自己都知道根本没有用的──尽管他们自己并不见得清楚自己真正的想法。
+The possibility is this: teachers exhaust all their patience on their students, so when they get home, they unconsciously lose patience with their own children. This is what happened to me. When I was young, my father also tried to teach me English, but after a few sentences, he would slap me, "So stupid, are you my son?" I was also stubborn, "Didn't you say I was picked up! Hmph!" Then we would part on bad terms.
 
-不到半年的时间里，这些人都不再去健身房了，现在，整个健身房里，只有我一个人是七年的会员。最重要的是，在健身教练的指导下，这么多年，我在健身房从未受伤。事实上，很多人不是坚持不下去，而是在练的过程中由于方法不当，最终造成了各种各样的损伤，于是，无法练下去了 …… 并且，教练在大约两年之后，基本上就教完了，普通人没必要请一辈子教练的。经过这样迂回地讲解，读者应该能够理解很多人声称 “对英文感兴趣” 或 “英文很重要等”，但实际情况却并非如此。
+However, one day, the inevitable finally happened.
 
-“叶公好龙” 这个成语早已存在超过千年。这不是什么稀奇的现象，也没那么难以理解。
+In college, after much effort, I finally got a copy of "Animal Farm" with English-French contrast (not "Chinese-English contrast"). This book by George Orwell was a banned book during my growing years. Humans are strange creatures, if this book is readily available, you might not want to read it; but if it's a banned book, you have endless motivation to get it.
 
-另外，对于那些希望自己孩子学好英文自己却一点都不懂的父母来说，倒是有个实用的建议：为了让孩子自然而然地学，父母就应该跟孩子一起学──我的意思是 “真学”，而不是做做样子。如果，你坚信英文有用，一定会有所挣扎；只要挣扎，就一定会有进步；只要有进步，就一定会开心，相信我，开心是传染性非常高的。当然，如果发现自己确实做不到，那么，请你也别对孩子有太多要求，随他去吧，看他自己的造化。
+This book is hailed as the greatest political prophecy of the last century. The thin booklet tells a seemingly plain but earth-shattering story:
 
-## 8. 我自己是从什么时候开始确认英文有用的？
+> In a farm, an old pig took advantage of the drunk farmer's absence, gathered all the animals in the barn, and held a meeting for everyone.
 
-最初的时候，我的英文成绩不仅不好，甚至应该正确描述为 “很差” 才对。从小我就被误解，很多人误以为我英文成绩一定会不错，因为我的父亲是英文教授。
+> The old pig climbed up the grain pile tremblingly and said, "I had a dream......"
 
-可恰恰因为我父亲是英文教授，我才学不好！这不是什么奇怪的现象，而是普遍现象──看看实际情况吧，一般来说，教师子女成绩不好的情况其实很常见；并且，子女学不好很可能恰恰是父母所教授的那一门课程。
+> Before he could say a few words, Farmer Jones came back drunk, and everyone scattered afterwards.
 
-可能性是这样的：教师把耐心全都耗费在学生身上了，以至于回到家里，对自己的孩子却不知不觉失去了耐心。这就是发生在我身上的事情，小时候父亲也尝试教我英文，可总是几句话之后就一巴掌打过来，“这么笨，是我儿子么！” 我也倔强，“你不说我是捡来的么！哼！” 然后就是不欢而散。
+> The next day, the old pig died. Everyone couldn't remember exactly what he said, but they felt very excited whenever they thought about it, not knowing why......
 
-然而，有一天，注定要发生的事情终于发生了 。
+> Pigs are the smartest of all animals. Not long after the old pig died, two pigs, one named Napoleon and the other named Snowball, led everyone to rebel, drove Jones away, occupied the farm themselves, and established the Animal Republic......
 
-大学的时候，几经辗转，我终于搞到了一本英法对照（不是 “中英对照”）的 “Animal Farm”。乔治•奥威尔的这本书，在我成长的年代是一本禁书[^10]。人是很奇怪的动物，如果这书让你随便看你还未必愿意看；可如果它是禁书，你就有无穷无尽的动力去搞到它。
+> These animals even have a manifesto: "All animals are born equal."
 
-这本书被推崇为上个世纪最伟大的政治预言。薄薄的册子，讲述了一个看似平实却又惊天动地的故事：
+> Later on, the pigs discovered that wine tastes good. But the problem is, wine is not infinite, it's not enough to drink. So a pig suggested, "Only pigs can drink wine." But then there was a problem, the wall outside clearly says "All animals are born equal." So, after a full meal and drink, a pig went to the wall and brushed some more words.
 
-> 一个农场里，一头老猪趁着酒鬼农场主出门的时机，把所有动物召集到谷仓，给大伙开了个会。
+> The next day, all the animals saw that the slogan on the wall had grown a little bit: "All animals are born equal, but some animals are more equal than others."
+......
 
-> 这头老猪颤颤巍巍爬上谷堆，张口说：“I had a dream……”
+When I got this book, I had been looking for it for several years, so you can easily imagine how thirsty I was at that time. And the French contrasted with English didn't discourage me, because I knew how to use a dictionary - how useful it is to use a dictionary, this book will mention later. It took me about half a month to finish reading this book, but I didn't feel tired at all. I even finished it without realizing it - but in fact, that was half a month!
+Many years later, thinking back on this matter, I know that the content of "Animal Farm" did not have a greater impact on me than another thing. After reading this book, a sentence flashed in my mind: "English, for me, means freedom."
+The feeling of freedom is really good.
 
-> 没说几句话，农场主琼斯就醉醺醺地回来了，大伙之后四散。
+Perhaps for you, learning English is not for freedom, but no matter what it is, as long as you discover it, your motivation will be endless.
 
-> 第二天，这头老猪就去世了，大伙记不得它究竟都说了些什么，却一想起来就很激动，也不知道为什么……
+[^10]: Now this book is no longer a banned book, you can even find the full Chinese translated version of "Animal Farm" on the Sina Reading Channel.
 
-> 猪是所有动物里最聪明的。老猪去世之后不久，两头猪，一头叫拿破仑，另一头叫雪球，带着大伙起义了，把琼斯赶走，自己占领了农场，建立了动物共和国……
+## 9. Finding the True Use of English for You
 
-> 这些动物甚至有宣言的：“All animals are born equal.”
+The use of English should be very different for everyone. Even in the aspects of listening, speaking, reading, writing, and translating, the requirements between individuals may vary greatly.
 
-> 再后来，猪们发现酒很好喝。可问题在于，酒不是无穷无尽的，不够喝。于是就有猪建议，“只有猪才能喝酒。”可问题又来了，外面的墙上明明写着“All animals are born equal.”于是，酒足饭饱之后，一头猪去在墙上又刷了一些字。
+However, no matter what, you must figure out where the real use of English lies for you?
 
-> 第二天，所有的动物们都看到了，墙上的标语长了一点点：“All animals are born equal, but some animals are more equal than others.”
-……
+Listening and reading are inputs, speaking and writing are outputs, and translation can never be mechanical - otherwise, Google Translate would have replaced human translation long ago. Translation, in fact, most of the work content is "recreation".
 
-拿到这本书的时候，我已经寻它好几年了，很容易想象我当时如饥似渴的程度。而那与英文对照的法文并没有让我沮丧，因为我知道怎么查词典──查词典多有用，本书后面会提到。我花了大约半个月的时间才读完这本书，却一点都不觉得辛苦。甚至不知不觉就读完了──可事实上那是半个月啊！
-许多年后，回想起这件事请，我知道 “Animal Farm” 的内容对我的影响并没有另外一件事情更大。读过这本书之后，我脑子里闪过的是这样一个句子：“English, for me, means freedom.”
-自由的感觉真好。
+In fact, for everyone, input is likely to be much more important than output. Because output depends on input, you need to input enough information first, and after processing (thinking), you can get the output result. So, where does the output come from without input? Even the input itself has certain requirements, because if we compare the brain to a computer, we can apply that famous computer theory to the operation mechanism of the brain: "Garbage in, garbage out." What comes in is garbage, what goes out is garbage - turning waste into treasure is often just a legend...
 
-或许对你而言学英语不是为了自由，但不管是什么，只要你发现了，你的动力将无穷尽。
+I have always believed that most people don't need to be afraid of only learning "dumb English". In fact, the vast majority of people actually don't have many opportunities to speak English. Of course, I am not against speaking English, I am just stating a fact: for many people, it may be enough to be able to read English fluently.
+There are many benefits to being able to read English fluently. The word "freedom" is basically the biggest summary. For example, we can directly read first-hand literature, instead of having to wait a long time to read the translated text that is actually full of errors. Translations are often unreliable because translation is really a very difficult job. Many times, it's not the translator's fault that the translation is unreliable, at least, at least some languages are simply untranslatable. If you can read English fluently, then when you read the translation, you will definitely laugh from time to time - many wrongly translated sentences, you can even restore the original English in your mind based on experience. Not relying on translation is a great relief. When your English reading proficiency reaches a certain level, you will naturally feel fortunate, that is a kind of priceless fortune. However, it's not that time yet, as for now, whether to believe it or not is up to you.
 
-[^10]: 现在这本书早已经不再是禁书，你甚至可以在新浪读书频道里面找到这本书的全本中译版《动物农庄》。
+Another undisputed fact is that English is the language with the largest amount of scientific literature, and it surpasses all languages in this respect. So, once you need to consult scientific literature, you basically have to use English. For some specific groups of people, writing may be more important. I know many foreign media staff stationed in China are like this. Although they speak English quite fluently, they themselves know how key the ability to write is for them. Therefore, they will do everything possible to improve their retrieval ability, thinking ability, and writing ability. In order to obtain key information more quickly and accurately, they also have to spend a lot of time and energy to weave necessary interpersonal relationships... Don't mistakenly think that writing an article of a few thousand words only requires vocabulary and grammar knowledge.
 
-## 9. 寻找英文对你的真正的用处
+I don't want to sing the opposite tune, I not only think that oral English ability is very important, but also deeply know how difficult it is to practice fluent oral English. Because I myself have spent a lot of time and taken many detours to be able to express myself normally.
 
-对每个人来说，英文的用处应该是非常不一样的。即便是听说读写译这几个方面，人与人之间的要求也可能有天壤之别。
+The reason why oral English is difficult to learn is because it is an output, so it must be much more difficult than input. Effective output not only requires effective input but also effective processing (thinking), so from this point of view, practicing fluent oral English is more than eight times more difficult than practicing fluent reading...
 
-不过，无论如何，一定要想明白对自己来说，英文真正的用处在哪儿？
+However, no matter what, input is the foundation. The fundamental reason why many people cannot output is that they input too little. How little it is, they themselves are not clear. This sentence can be used in any field of learning: **It's not terrible to not know, what's terrible is not knowing "you don't know"**.
 
-听与读是输入，说与写是输出，译，从来都不可能是机械的──否则 Google 翻译早就该替代人工翻译了。翻译，实际上大部分工作内容是 “再创作”。
 
-事实上，对每个人来说，输入很可能要远比输出重要得多。因为输出依赖于输入，要先输入足够的信息，经过处理（思考）之后才能获得输出结果。所以，没有输入哪儿来的输出？即便是输入本身，都是有一定要求的，因为，把大脑比作计算机的话，我们可以将那个著名的计算机理论应用到大脑运行机制中：“Garbage in, garbage out.” 进来的是垃圾，出去的就是垃圾──变废为宝往往只不过是传说而已……
+## 10. We've Been Too Easy on Ourselves...
 
-我一直认为大多数人其实没必要害怕自己只学到了 “哑巴英语”。事实上，绝大多数人其实开口说英语的机会并不多。我当然不是反对开口说英语，我只是在讲述一个事实：对很多人来说，其实只要能够流利阅读英语或许已经足够了。
-能够流利阅读英语的好处很多。自由两个字基本上就是最大的概括。比如，我们可以直接阅读一手的文献资料，而不必经过漫长的等待之后去读实际上错误百出的译文。译文往往并不靠谱，因为翻译真的是很难很难的工作。很多的时候，译文不靠谱都怪不得译者，起码，至少有一部分语言是根本无法翻译的。如若你能够流利阅读英语，那你在阅读译作的时候，一定会时不时笑出来──很多翻译错的句子，你甚至可以根据经验在脑子里还原出原本的英文。不用依赖翻译，是一种莫大的解脱。当你的英文阅读熟练到一定程度之时，你会自然而然地庆幸，那是一种千金不换的庆幸。不过，现在还没到那时候，至于当下么，信不信只能由你。
+In the past, not only did we not believe that we could learn and use English well, but more importantly, even when struggling, we set our standards too low, to the point of "learning foolishly" or being "taught foolishly".
 
-另外一个不争的事实是，英文是科技文献量最大的语言，在这方面它全面超越所有语言。所以，一旦你需要查阅科技文献，基本上只能去用英文。对另外一些特定的人群来说，写可能更重要。我认识很多外媒驻中的工作人员就是如此。尽管他们讲英文也相当流利，但是，他们自己清楚，写的能力对他们来说有多么的关键。于是，他们将尽一切可能去提高他们的检索能力、思考能力及写作能力。为了更快更准地获取关键信息，他们还要耗费大量的时间精力去编织必要的人际关系 …… 千万不要误以为写出几千字的文章只需要词汇语法知识就可以。
+Apart from the "vocabulary" (college entrance examination vocabulary outline) mentioned earlier, there is also the amount of reading. The texts in our junior high school English textbooks start from a few sentences per article, and ultimately each article does not exceed 500 words; each article in the high school English textbooks is just under 1000 words; the longest text in the college English intensive reading textbooks is just 2500 words. Their common feature is: students are required to finish reading and learning an article within a few days (at most one week).
 
-我并不想唱反调，我不仅同样认为口语能力很重要，并且也深知练就熟练的口语究竟有多难。因为我自己就是耗费了很多时间，走了很多弯路才做到可以正常表达。
+If reading is compared to running, and our junior high school texts are compared to 100 meters, then after many years of "learning" English, many people gradually adapt to the longest distance of only about 2000 meters... Over the years, the habit of the longest reading volume being 2000 words has resulted in headaches after a while of reading English... In fact, when reading to 1000 words, the brain starts to say "Hold on a bit longer!" When it gets to 1500 words, it says "Hang in there!" When it gets to 1800 words, the brain keeps shouting "That's about it, just like this..."
 
-口语之所以难以习得，是因为它本身属于输出，所以，一定要比输入难度高很多。有效的输出，不仅需要有效的输入，还需要有效的处理（思考），这样来看，练就流利的口语比练就流利的阅读难上八倍都不止……
+But, how does a normal person use language? Let's look at our own use of our mother tongue:
 
-不过，无论如何，输入是基础。很多人无法输出的根本原因在于输入太少。究竟少到什么程度，他们自己并不清楚。这句话可以用在任何一个学习的领域：**不知道并不可怕，可怕的是自己不知道 “自己不知道”**。
+> In elementary school, learning to read was not too painful. In fact, many children already knew quite a few words in kindergarten.
 
+> After you graduated from junior high school, your Chinese reading ability had already reached this level: in the thirty minutes of taking the subway (or other transportation) to a certain place, you could probably flip through a "Reader" magazine from beginning to end. In this process, you can easily distinguish which articles are "boring, don't want to read", which articles are "Hmm! Seems good!" And after reading, you have already judged the quality of the article, if it's good, you will recommend it to your friends, and even retell the content of the article to your friends for the sake of recommendation...
 
-## 10. 我们过去对自己要求太低了……
+> Of course, if you are a university graduate, after seven years of high-intensity reading accumulation after junior high school (in school, whether we like it or not, we have to read a lot), your reading ability has long climbed another step: most magazines and newspapers can be digested while you are waiting for the bus or in line, most novels can be finished in a few afternoons, and even for you, many professional books do not need "a semester"...
 
-过去，我们不仅不相信自己能够学好、用好英语，更为重要的是，即便挣扎其中，我们都对自己要求太低了，乃至于 “学傻” 或者 “被教傻”。
+So, under normal circumstances, most normal people are "running a marathon" in the use of language every day, and it is effortless.
 
-除了之前提到的 “词汇量”（高考词汇大纲）之外，还有就是阅读量。我们的初中英语教材中的课文，从几句话一篇开始，最终每篇没超过 500 词；高中英语教材中的课文每篇也就不到 1000 词；大学英语精读教材中的课文最长也就 2500 词。它们的共同特征是：要求学生几天内（最长一周）读完、学完一篇课文。
+The key is that initially reading text might be a bit tiring (think about the process of us going to school with a dictionary when we were young). But soon, it will get better. After that, most people are actually "enjoying the text". Use it to get information, use it to entertain the spirit, use it to communicate, rather than "study language".
 
-如果把阅读比作跑步，把我们初中时期的课文比作 100 米，那么很多人 “学” 了很多年英语之后，渐渐能够适应的、最长的距离只不过是 2000 米左右 …… 多年来习惯于最长阅读量是 2000 词，导致的结果是，看一会儿英文就头疼 …… 事实上，在读到 1000 词的时候，大脑就开始说 “再坚持一下啊！” 到 1500 词的时候说 “顶住！” 到 1800 词的时候大脑在不停地喊 “差不多了，就这样吧……”
+Now, comparing our learning process in English, we can only say that we have been too easy on ourselves in the past.
+What we should do is to adapt to the "marathon" as quickly as possible, and then even if we "marathon" every day, we don't feel abnormal, and we should forget the initial pain as soon as possible, and focus on the main function of language: use English to get information, use English to communicate... **Anyway, just use it.**
 
-可是，一个正常人是怎样使用语言的呢？看看我们自己使用母语的情况吧：
-
-> 小学的时候，识字其实也没有怎么太过痛苦。甚至，很多孩子在幼儿园阶段就已经识字不少了。
-
-> 在你初中毕业之后，中文阅读能力早就达到这样的水平：在坐地铁（或其他交通工具）前往某处的三十分钟里，你大概能把一本《读者》杂志从头到尾翻阅完毕。在这个过程里，你可以轻松分辨哪些文章“没劲，懒得看”，哪些文章“嗯！好像不错！”而读完之后，文章的好坏你早就判断完毕，如果好的话，回头你还会向你的朋友推荐，甚至为了推荐把那文章的内容向朋友重新复述一遍……
-
-> 当然，如果你是大学毕业生，初中过后又有七年的高强度阅读积累（在学校里不论我们情愿与否，都要大量阅读），你的阅读能力早就登上另外一个台阶：大多数杂志报纸在你侯车或排队的过程中就能被消化掉，大多数小说你可以几个下午之内搞定，甚至，对你来说，很多专业书籍也根本不需要“一学期”的长度……
-
-所以，在正常情况下，大多数正常人每天都在语言的使用上 “跑马拉松”，并且还是在毫不费力的情况下。
-
-最为关键的是，最初阅读文字可能会比较累（想想我们小时候背着词典上学的过程吧）。但是，很快就会渐入佳境。那之后，大多数人其实是在 “享受文字”。用它获取信息，用它娱乐精神，用它沟通交流，而不是 “研究语文”。
-
-现在，对比下我们在英语上的学习过程，只能说过去我们对自己要求太低了。
-我们应该做的是，用最快的速度完成对 “马拉松” 的适应，而后哪怕每天 “马拉松” 也不觉得异常，甚至应该早忘记当初的痛苦，而去专注于语言的主要功用：用英语获取信息，用英语交流……**反正，用就是了。**
-
-| [< 目录](./README-en.md) | [第二章: 口语 >](./chapter2-en.md) |
-| ------------------------------- | ------------------------------- |
+| [< Table of Contents](./README.md) | [Chapter 2: Speaking >](./chapter2.md) |
