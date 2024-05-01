@@ -380,4 +380,4 @@ The key is that initially reading text might be a bit tiring (think about the pr
 Now, comparing our learning process in English, we can only say that we have been too easy on ourselves in the past.
 What we should do is to adapt to the "marathon" as quickly as possible, and then even if we "marathon" every day, we don't feel abnormal, and we should forget the initial pain as soon as possible, and focus on the main function of language: use English to get information, use English to communicate... **Anyway, just use it.**
 
-| [< Table of Contents](./README.md) | [Chapter 2: Speaking >](./chapter2.md) |
+| [< Table of Contents](./README-en.md) | [Chapter 2: Speaking >](./chapter2-en.md) |
