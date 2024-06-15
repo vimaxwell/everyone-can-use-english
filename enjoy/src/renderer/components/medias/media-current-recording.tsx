@@ -58,6 +58,8 @@ export const MediaCurrentRecording = () => {
     wavesurfer,
     zoomRatio,
     editingRegion,
+    currentSegment,
+    createSegment,
     currentTime: mediaCurrentTime,
   } = useContext(MediaPlayerProviderContext);
   const { webApi, EnjoyApp } = useContext(AppSettingsProviderContext);
@@ -195,6 +197,16 @@ export const MediaCurrentRecording = () => {
       }
     }
 
+    try {
+      const segment = currentSegment || (await createSegment());
+      if (!segment) throw new Error("Failed to create segment");
+
+      await EnjoyApp.segments.sync(segment.id);
+    } catch (error) {
+      toast.error(t("shareFailed"), { description: error.message });
+      return;
+    }
+
     webApi
       .createPost({
         targetId: currentRecording.id,
@@ -217,6 +229,12 @@ export const MediaCurrentRecording = () => {
       .showSaveDialog({
         title: t("download"),
         defaultPath: currentRecording.filename,
+        filters: [
+          {
+            name: "Audio",
+            extensions: [currentRecording.filename.split(".").pop()],
+          },
+        ],
       })
       .then((savePath) => {
         if (!savePath) return;
@@ -404,12 +422,22 @@ export const MediaCurrentRecording = () => {
   }, [currentRecording, isRecording, layout?.width]);
 
   useHotkeys(
-    currentHotkeys.PlayOrPauseRecording,
+    [
+      currentHotkeys.PlayOrPauseRecording,
+      currentHotkeys.PronunciationAssessment,
+    ],
     (keyboardEvent, hotkeyEvent) => {
       if (!player) return;
       keyboardEvent.preventDefault();
 
-      document.getElementById("recording-play-or-pause-button").click();
+      switch (hotkeyEvent.keys.join("")) {
+        case currentHotkeys.PlayOrPauseRecording.toLowerCase():
+          document.getElementById("recording-play-or-pause-button").click();
+          break;
+        case currentHotkeys.PronunciationAssessment.toLowerCase():
+          setDetailIsOpen(!detailIsOpen);
+          break;
+      }
     },
     { enabled },
     [player]

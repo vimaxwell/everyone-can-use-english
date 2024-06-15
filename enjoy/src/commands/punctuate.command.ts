@@ -1,5 +1,5 @@
-import { ChatOpenAI } from "@langchain/openai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
+import { textCommand } from "./text.command";
 
 export const punctuateCommand = async (
   text: string,
@@ -10,29 +10,14 @@ export const punctuateCommand = async (
     baseUrl?: string;
   }
 ): Promise<string> => {
-  const { key, temperature = 0, baseUrl } = options;
-  let { modelName = "gpt-4-turbo" } = options;
+  if (!text) throw new Error("Text is required");
 
-  const chatModel = new ChatOpenAI({
-    openAIApiKey: key,
-    modelName,
-    temperature,
-    configuration: {
-      baseURL: baseUrl,
-    },
-    cache: false,
-    verbose: true,
-    maxRetries: 2,
-  });
-
-  const prompt = ChatPromptTemplate.fromMessages([
+  const prompt = await ChatPromptTemplate.fromMessages([
     ["system", SYSTEM_PROMPT],
     ["human", text],
-  ]);
+  ]).format({});
 
-  const response = await prompt.pipe(chatModel).invoke({});
-
-  return response.text;
+  return textCommand(prompt, options);
 };
 
 const SYSTEM_PROMPT = `Please add proper punctuation to the text I provide you. Return the corrected text only.`;

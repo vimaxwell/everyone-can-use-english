@@ -1,5 +1,8 @@
 import { useEffect, useState, useContext } from "react";
-import { MediaPlayerProviderContext } from "@renderer/context";
+import {
+  AppSettingsProviderContext,
+  MediaPlayerProviderContext,
+} from "@renderer/context";
 import cloneDeep from "lodash/cloneDeep";
 import { Button, toast } from "@renderer/components/ui";
 import { ConversationShortcuts } from "@renderer/components";
@@ -10,18 +13,22 @@ import {
   CheckIcon,
   SpeechIcon,
   NotebookPenIcon,
+  DownloadIcon,
 } from "lucide-react";
 import {
   Timeline,
   TimelineEntry,
 } from "echogarden/dist/utilities/Timeline.d.js";
-import { convertIpaToNormal } from "@/utils";
+import { convertWordIpaToNormal } from "@/utils";
 import { useCopyToClipboard } from "@uidotdev/usehooks";
 import { MediaCaptionTabs } from "./media-captions";
 
 export const MediaCaption = () => {
   const {
+    media,
     currentSegmentIndex,
+    currentSegment,
+    createSegment,
     currentTime,
     transcription,
     regions,
@@ -30,7 +37,9 @@ export const MediaCaption = () => {
     editingRegion,
     setEditingRegion,
     setTranscriptionDraft,
+    ipaMappings,
   } = useContext(MediaPlayerProviderContext);
+  const { EnjoyApp, learningLanguage } = useContext(AppSettingsProviderContext);
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [selectedIndices, setSelectedIndices] = useState<number[]>([]);
   const [multiSelecting, setMultiSelecting] = useState<boolean>(false);
@@ -97,29 +106,21 @@ export const MediaCaption = () => {
 
     const start = startWord.startTime;
     const end = endWord.endTime;
-    const regionStart = activeRegion.start;
-    const regionEnd = activeRegion.end;
 
     // If the active region is a word region, then merge the selected words into a single region.
     if (activeRegion.id.startsWith("word-region")) {
       activeRegion.remove();
 
-      if (start >= regionStart && end <= regionEnd) {
-        setActiveRegion(
-          regions.getRegions().find((r) => r.id.startsWith("segment-region"))
-        );
-      } else {
-        const region = regions.addRegion({
-          id: `word-region-${startIndex}`,
-          start: Math.min(start, regionStart),
-          end: Math.max(end, regionEnd),
-          color: "#fb6f9233",
-          drag: false,
-          resize: editingRegion,
-        });
+      const region = regions.addRegion({
+        id: `word-region-${startIndex}`,
+        start,
+        end,
+        color: "#fb6f9233",
+        drag: false,
+        resize: editingRegion,
+      });
 
-        setActiveRegion(region);
-      }
+      setActiveRegion(region);
       // If the active region is a meaning group region, then active the segment region.
     } else if (activeRegion.id.startsWith("meaning-group-region")) {
       setActiveRegion(
@@ -138,6 +139,101 @@ export const MediaCaption = () => {
 
       setActiveRegion(region);
     }
+  };
+
+  const handleDownload = async () => {
+    if (activeRegion && !activeRegion.id.startsWith("segment-region")) {
+      handleDownloadActiveRegion();
+    } else {
+      handleDownloadSegment();
+    }
+  };
+
+  const handleDownloadSegment = async () => {
+    const segment = currentSegment || (await createSegment());
+    if (!segment) return;
+
+    EnjoyApp.dialog
+      .showSaveDialog({
+        title: t("download"),
+        defaultPath: `${media.name}(${segment.startTime.toFixed(
+          2
+        )}s-${segment.endTime.toFixed(2)}s).mp3`,
+        filters: [
+          {
+            name: "Audio",
+            extensions: ["mp3"],
+          },
+        ],
+      })
+      .then((savePath) => {
+        if (!savePath) return;
+
+        toast.promise(
+          EnjoyApp.download.start(segment.src, savePath as string),
+          {
+            loading: t("downloading", { file: media.filename }),
+            success: () => t("downloadedSuccessfully"),
+            error: t("downloadFailed"),
+            position: "bottom-right",
+          }
+        );
+      })
+      .catch((err) => {
+        console.error(err);
+        toast.error(err.message);
+      });
+  };
+
+  const handleDownloadActiveRegion = async () => {
+    if (!activeRegion) return;
+    let src: string;
+
+    try {
+      if (media.mediaType === "Audio") {
+        src = await EnjoyApp.audios.crop(media.id, {
+          startTime: activeRegion.start,
+          endTime: activeRegion.end,
+        });
+      } else if (media.mediaType === "Video") {
+        src = await EnjoyApp.videos.crop(media.id, {
+          startTime: activeRegion.start,
+          endTime: activeRegion.end,
+        });
+      }
+    } catch (err) {
+      console.error(err);
+      toast.error(`${t("downloadFailed")}: ${err.message}`);
+    }
+
+    if (!src) return;
+
+    EnjoyApp.dialog
+      .showSaveDialog({
+        title: t("download"),
+        defaultPath: `${media.name}(${activeRegion.start.toFixed(
+          2
+        )}s-${activeRegion.end.toFixed(2)}s).mp3`,
+        filters: [
+          {
+            name: "Audio",
+            extensions: ["mp3"],
+          },
+        ],
+      })
+      .then((savePath) => {
+        if (!savePath) return;
+
+        toast.promise(EnjoyApp.download.start(src, savePath as string), {
+          loading: t("downloading", { file: media.filename }),
+          success: () => t("downloadedSuccessfully"),
+          error: t("downloadFailed"),
+          position: "bottom-right",
+        });
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
   };
 
   useEffect(() => {
@@ -328,12 +424,16 @@ export const MediaCaption = () => {
             if (displayIpa) {
               const text = caption.timeline
                 .map((word) => {
-                  const ipa = word.timeline
-                    .map((t) =>
-                      t.timeline.map((s) => convertIpaToNormal(s.text)).join("")
-                    )
-                    .join(" · ");
-                  return `${word.text}(${ipa})`;
+                  const ipas = word.timeline.map((t) =>
+                    t.timeline.map((s) => s.text).join("")
+                  );
+                  return `${word.text}(${
+                    learningLanguage.startsWith("en")
+                      ? convertWordIpaToNormal(ipas, {
+                          mappings: ipaMappings,
+                        }).join("")
+                      : ipas.join("")
+                  })`;
                 })
                 .join(" ");
 
@@ -357,23 +457,34 @@ export const MediaCaption = () => {
             />
           )}
         </Button>
+
+        <Button
+          variant="outline"
+          size="icon"
+          className="rounded-full w-8 h-8 p-0"
+          data-tooltip-id="media-player-tooltip"
+          data-tooltip-content={t("downloadSegment")}
+          onClick={handleDownload}
+        >
+          <DownloadIcon className="w-4 h-4" />
+        </Button>
       </div>
     </div>
   );
 };
 
-const Caption = (props: {
+export const Caption = (props: {
   caption: TimelineEntry;
-  selectedIndices: number[];
+  selectedIndices?: number[];
   currentSegmentIndex: number;
-  activeIndex: number;
-  displayIpa: boolean;
-  displayNotes: boolean;
-  onClick: (index: number) => void;
+  activeIndex?: number;
+  displayIpa?: boolean;
+  displayNotes?: boolean;
+  onClick?: (index: number) => void;
 }) => {
   const {
     caption,
-    selectedIndices,
+    selectedIndices = [],
     currentSegmentIndex,
     activeIndex,
     displayIpa,
@@ -381,13 +492,21 @@ const Caption = (props: {
     onClick,
   } = props;
 
-  const { currentNotes } = useContext(MediaPlayerProviderContext);
+  const { currentNotes, ipaMappings } = useContext(MediaPlayerProviderContext);
+  const { learningLanguage } = useContext(AppSettingsProviderContext);
   const notes = currentNotes.filter((note) => note.parameters?.quoteIndices);
   const [notedquoteIndices, setNotedquoteIndices] = useState<number[]>([]);
 
   let words = caption.text.split(" ");
   const ipas = caption.timeline.map((w) =>
-    w.timeline.map((t) => t.timeline.map((s) => s.text))
+    w.timeline.map((t) =>
+      learningLanguage.startsWith("en")
+        ? convertWordIpaToNormal(
+            t.timeline.map((s) => s.text),
+            { mappings: ipaMappings }
+          ).join("")
+        : t.text
+    )
   );
 
   if (words.length !== caption.timeline.length) {
@@ -404,23 +523,23 @@ const Caption = (props: {
           id={`word-${currentSegmentIndex}-${index}`}
         >
           <div
-            className={`font-serif text-lg xl:text-xl 2xl:text-2xl cursor-pointer p-1 pb-2 rounded hover:bg-red-500/10 ${
-              index === activeIndex ? "text-red-500" : ""
-            } ${
+            className={`font-serif text-lg xl:text-xl 2xl:text-2xl p-1 pb-2 rounded ${
+              onClick && "hover:bg-red-500/10 cursor-pointer"
+            } ${index === activeIndex ? "text-red-500" : ""} ${
               selectedIndices.includes(index) ? "bg-red-500/10 selected" : ""
             } ${
               notedquoteIndices.includes(index)
                 ? "border-b border-red-500 border-dashed"
                 : ""
             }`}
-            onClick={() => onClick(index)}
+            onClick={() => onClick && onClick(index)}
           >
             {word}
           </div>
 
           {displayIpa && (
             <div
-              className={`select-text text-sm 2xl:text-base text-muted-foreground font-code mb-1 ${
+              className={`select-text text-sm 2xl:text-base text-muted-foreground font-code mb-1 px-1 ${
                 index === 0 ? "before:content-['/']" : ""
               } ${
                 index === caption.timeline.length - 1

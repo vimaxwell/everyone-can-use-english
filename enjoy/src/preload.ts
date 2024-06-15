@@ -23,6 +23,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     apiUrl: () => {
       return ipcRenderer.invoke("app-api-url");
     },
+    wsUrl: () => {
+      return ipcRenderer.invoke("app-ws-url");
+    },
     quit: () => {
       ipcRenderer.invoke("app-quit");
     },
@@ -85,8 +88,8 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
       },
     },
     youtube: {
-      videos: () => {
-        return ipcRenderer.invoke("youtube-provider-videos");
+      videos: (channel: string) => {
+        return ipcRenderer.invoke("youtube-provider-videos", channel);
       },
     },
   },
@@ -123,6 +126,23 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
   onNotification: (
     callback: (event: IpcRendererEvent, notification: NotificationType) => void
   ) => ipcRenderer.on("on-notification", callback),
+  onLookup: (
+    callback: (
+      event: IpcRendererEvent,
+      selection: string,
+      position: { x: number; y: number }
+    ) => void
+  ) => ipcRenderer.on("on-lookup", callback),
+  offLookup: () => {
+    ipcRenderer.removeAllListeners("on-lookup");
+  },
+  onTranslate: (
+    callback: (
+      event: IpcRendererEvent,
+      selection: string,
+      position: { x: number; y: number }
+    ) => void
+  ) => ipcRenderer.on("on-translate", callback),
   shell: {
     openExternal: (url: string) =>
       ipcRenderer.invoke("shell-open-external", url),
@@ -139,6 +159,12 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
       ipcRenderer.invoke("dialog-show-error-box", title, content),
   },
   settings: {
+    get: (key: string) => {
+      return ipcRenderer.invoke("settings-get", key);
+    },
+    set: (key: string, value: any) => {
+      return ipcRenderer.invoke("settings-set", key, value);
+    },
     getLibrary: () => {
       return ipcRenderer.invoke("settings-get-library");
     },
@@ -159,6 +185,12 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
     setDefaultEngine: (engine: "enjoyai" | "openai") => {
       return ipcRenderer.invoke("settings-set-default-engine", engine);
+    },
+    getGptEngine: () => {
+      return ipcRenderer.invoke("settings-get-gpt-engine");
+    },
+    setGptEngine: (engine: GptEngineSettingType) => {
+      return ipcRenderer.invoke("settings-set-gpt-engine", engine);
     },
     getLlm: (provider: string) => {
       return ipcRenderer.invoke("settings-get-llm", provider);
@@ -227,6 +259,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     upload: (id: string) => {
       return ipcRenderer.invoke("audios-upload", id);
     },
+    crop: (id: string, params: { startTime: number; endTime: number }) => {
+      return ipcRenderer.invoke("audios-crop", id, params);
+    },
   },
   videos: {
     findAll: (params: {
@@ -249,6 +284,9 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
     upload: (id: string) => {
       return ipcRenderer.invoke("videos-upload", id);
+    },
+    crop: (id: string, params: { startTime: number; endTime: number }) => {
+      return ipcRenderer.invoke("videos-crop", id, params);
     },
   },
   recordings: {
@@ -281,8 +319,8 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     upload: (id: string) => {
       return ipcRenderer.invoke("recordings-upload", id);
     },
-    assess: (id: string) => {
-      return ipcRenderer.invoke("recordings-assess", id);
+    assess: (id: string, language?: string) => {
+      return ipcRenderer.invoke("recordings-assess", id, language);
     },
     stats: (params: { from: string; to: string }) => {
       return ipcRenderer.invoke("recordings-stats", params);
@@ -316,6 +354,23 @@ contextBridge.exposeInMainWorld("__ENJOY_APP__", {
     },
     destroy: (id: string) => {
       return ipcRenderer.invoke("conversations-destroy", id);
+    },
+  },
+  pronunciationAssessments: {
+    findAll: (params: { where?: any; offset?: number; limit?: number }) => {
+      return ipcRenderer.invoke("pronunciation-assessments-find-all", params);
+    },
+    findOne: (params: any) => {
+      return ipcRenderer.invoke("pronunciation-assessments-find-one", params);
+    },
+    create: (params: any) => {
+      return ipcRenderer.invoke("pronunciation-assessments-create", params);
+    },
+    update: (id: string, params: any) => {
+      return ipcRenderer.invoke("pronunciation-assessments-update", id, params);
+    },
+    destroy: (id: string) => {
+      return ipcRenderer.invoke("pronunciation-assessments-destroy", id);
     },
   },
   messages: {

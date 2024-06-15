@@ -9,10 +9,13 @@ import {
   translateCommand,
   analyzeCommand,
   punctuateCommand,
+  summarizeTopicCommand,
 } from "@commands";
 
 export const useAiCommand = () => {
-  const { EnjoyApp, webApi } = useContext(AppSettingsProviderContext);
+  const { EnjoyApp, webApi, nativeLanguage, learningLanguage } = useContext(
+    AppSettingsProviderContext
+  );
   const { currentEngine } = useContext(AISettingsProviderContext);
 
   const lookupWord = async (params: {
@@ -20,8 +23,10 @@ export const useAiCommand = () => {
     context: string;
     sourceId?: string;
     sourceType?: string;
+    cacheKey?: string;
+    force?: boolean;
   }) => {
-    const { context, sourceId, sourceType } = params;
+    const { context, sourceId, sourceType, cacheKey, force = false } = params;
     let { word } = params;
     word = word.trim();
     if (!word) return;
@@ -31,46 +36,60 @@ export const useAiCommand = () => {
       context,
       sourceId,
       sourceType,
+      nativeLanguage,
     });
 
-    if (lookup.meaning) {
+    if (lookup.meaning && !force) {
       return lookup;
     }
+
+    const modelName =
+      currentEngine.models.lookup || currentEngine.models.default;
 
     const res = await lookupCommand(
       {
         word,
         context,
         meaningOptions: lookup.meaningOptions,
+        nativeLanguage,
+        learningLanguage,
       },
       {
         key: currentEngine.key,
-        modelName: currentEngine.model,
+        modelName,
         baseUrl: currentEngine.baseUrl,
       }
     );
 
-    if (res.context_translation?.trim()) {
-      return webApi.updateLookup(lookup.id, {
-        meaning: res,
-        sourceId,
-        sourceType,
-      });
+    webApi.updateLookup(lookup.id, {
+      meaning: res,
+      sourceId,
+      sourceType,
+    });
+
+    const result = Object.assign(lookup, {
+      meaning: res,
+    });
+
+    if (cacheKey) {
+      EnjoyApp.cacheObjects.set(cacheKey, result);
     }
+
+    return result;
   };
 
   const extractStory = async (story: StoryType) => {
-    return extractStoryCommand(story.content, {
+    const res = await extractStoryCommand(story.content, learningLanguage, {
       key: currentEngine.key,
-      modelName: currentEngine.model,
+      modelName:
+        currentEngine.models.extractStory || currentEngine.models.default,
       baseUrl: currentEngine.baseUrl,
-    }).then((res) => {
-      const { words = [], idioms = [] } = res;
+    });
+    const { words = [], idioms = [] } = res;
 
-      return webApi.extractVocabularyFromStory(story.id, {
-        words,
-        idioms,
-      });
+    return webApi.extractVocabularyFromStory(story.id, {
+      words,
+      idioms,
     });
   };
 
@@ -78,9 +97,9 @@ export const useAiCommand = () => {
     text: string,
     cacheKey?: string
   ): Promise<string> => {
-    return translateCommand(text, {
+    return translateCommand(text, nativeLanguage, {
       key: currentEngine.key,
-      modelName: currentEngine.model,
+      modelName: currentEngine.models.translate || currentEngine.models.default,
       baseUrl: currentEngine.baseUrl,
     }).then((res) => {
       if (cacheKey) {
@@ -91,31 +110,47 @@ export const useAiCommand = () => {
   };
 
   const analyzeText = async (text: string, cacheKey?: string) => {
-    return analyzeCommand(text, {
-      key: currentEngine.key,
-      modelName: currentEngine.model,
-      baseUrl: currentEngine.baseUrl,
-    }).then((res) => {
-      if (cacheKey) {
-        EnjoyApp.cacheObjects.set(cacheKey, res);
+    const res = await analyzeCommand(
+      text,
+      {
+        learningLanguage,
+        nativeLanguage,
+      },
+      {
+        key: currentEngine.key,
+        modelName: currentEngine.models.analyze || currentEngine.models.default,
+        baseUrl: currentEngine.baseUrl,
       }
-      return res;
-    });
+    );
+
+    if (cacheKey) {
+      EnjoyApp.cacheObjects.set(cacheKey, res);
+    }
+    return res;
   };
 
   const punctuateText = async (text: string) => {
     return punctuateCommand(text, {
       key: currentEngine.key,
-      modelName: currentEngine.model,
+      modelName: currentEngine.models.default,
       baseUrl: currentEngine.baseUrl,
-    })
-  }
+    });
+  };
+
+  const summarizeTopic = async (text: string) => {
+    return summarizeTopicCommand(text, learningLanguage, {
+      key: currentEngine.key,
+      modelName: currentEngine.models.default,
+      baseUrl: currentEngine.baseUrl,
+    });
+  };
 
   return {
     lookupWord,
     extractStory,
     translate,
     analyzeText,
-    punctuateText
+    punctuateText,
+    summarizeTopic,
   };
 };

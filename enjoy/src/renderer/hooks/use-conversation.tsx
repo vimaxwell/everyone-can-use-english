@@ -3,7 +3,7 @@ import {
   AISettingsProviderContext,
 } from "@renderer/context";
 import { useContext } from "react";
-import { ChatMessageHistory, BufferMemory } from "langchain/memory";
+import { ChatMessageHistory, BufferMemory } from "langchain/memory/index";
 import { ConversationChain } from "langchain/chains";
 import { ChatOpenAI } from "@langchain/openai";
 import { ChatOllama } from "@langchain/community/chat_models/ollama";
@@ -13,11 +13,15 @@ import {
   MessagesPlaceholder,
 } from "@langchain/core/prompts";
 import OpenAI from "openai";
-import { type Generation } from "langchain/dist/schema";
+import { type LLMResult } from "@langchain/core/outputs";
 import { v4 } from "uuid";
+import * as sdk from "microsoft-cognitiveservices-speech-sdk";
+import { t } from "i18next";
 
 export const useConversation = () => {
-  const { EnjoyApp, user, apiUrl } = useContext(AppSettingsProviderContext);
+  const { EnjoyApp, webApi, user, apiUrl, learningLanguage } = useContext(
+    AppSettingsProviderContext
+  );
   const { openai, googleGenerativeAi, currentEngine } = useContext(
     AISettingsProviderContext
   );
@@ -39,7 +43,7 @@ export const useConversation = () => {
         configuration: {
           baseURL: `${apiUrl}/api/ai`,
         },
-        maxRetries: 2,
+        maxRetries: 0,
         modelName: model,
         temperature,
         maxTokens,
@@ -55,7 +59,7 @@ export const useConversation = () => {
         configuration: {
           baseURL: baseUrl || openai.baseUrl,
         },
-        maxRetries: 2,
+        maxRetries: 0,
         modelName: model,
         temperature,
         maxTokens,
@@ -163,7 +167,7 @@ export const useConversation = () => {
       prompt,
       verbose: true,
     });
-    let response: Generation[] = [];
+    let response: LLMResult["generations"][0] = [];
     await chain.call({ input: message.content }, [
       {
         handleLLMEnd: async (output) => {
@@ -227,6 +231,35 @@ export const useConversation = () => {
 
   const tts = async (params: Partial<SpeechType>) => {
     const { configuration } = params;
+    const { engine, model = "tts-1", voice } = configuration || {};
+
+    let buffer;
+    if (model.match(/^(openai|tts-)/)) {
+      buffer = await openaiTTS(params);
+    } else if (model.startsWith("azure")) {
+      buffer = await azureTTS(params);
+    }
+
+    return EnjoyApp.speeches.create(
+      {
+        text: params.text,
+        sourceType: params.sourceType,
+        sourceId: params.sourceId,
+        configuration: {
+          engine,
+          model,
+          voice,
+        },
+      },
+      {
+        type: "audio/mp3",
+        arrayBuffer: buffer,
+      }
+    );
+  };
+
+  const openaiTTS = async (params: Partial<SpeechType>) => {
+    const { configuration } = params;
     const {
       engine = currentEngine.name,
       model = "tts-1",
@@ -251,32 +284,61 @@ export const useConversation = () => {
         maxRetries: 1,
       });
     } else {
-      throw new Error("OpenAI API key is required");
+      throw new Error(t("openaiKeyRequired"));
     }
 
     const file = await client.audio.speech.create({
       input: params.text,
-      model,
+      model: model.replace("openai/", ""),
       voice,
     });
-    const buffer = await file.arrayBuffer();
 
-    return EnjoyApp.speeches.create(
-      {
-        text: params.text,
-        sourceType: params.sourceType,
-        sourceId: params.sourceId,
-        configuration: {
-          engine,
-          model,
-          voice,
-        },
-      },
-      {
-        type: "audio/mp3",
-        arrayBuffer: buffer,
-      }
+    return file.arrayBuffer();
+  };
+
+  const azureTTS = async (
+    params: Partial<SpeechType>
+  ): Promise<ArrayBuffer> => {
+    const { configuration, text } = params;
+    const { model, voice } = configuration || {};
+
+    if (model !== "azure/speech") return;
+
+    const { id, token, region } = await webApi.generateSpeechToken({
+      purpose: "tts",
+      input: text,
+    });
+    const speechConfig = sdk.SpeechConfig.fromAuthorizationToken(token, region);
+    const audioConfig = sdk.AudioConfig.fromDefaultSpeakerOutput();
+    speechConfig.speechRecognitionLanguage = learningLanguage;
+    speechConfig.speechSynthesisVoiceName = voice;
+
+    const speechSynthesizer = new sdk.SpeechSynthesizer(
+      speechConfig,
+      audioConfig
     );
+
+    return new Promise((resolve, reject) => {
+      speechSynthesizer.speakTextAsync(
+        text,
+        (result) => {
+          speechSynthesizer.close();
+
+          if (result && result.audioData) {
+            webApi.consumeSpeechToken(id);
+            resolve(result.audioData);
+          } else {
+            webApi.revokeSpeechToken(id);
+            reject(result);
+          }
+        },
+        (error) => {
+          speechSynthesizer.close();
+          webApi.revokeSpeechToken(id);
+          reject(error);
+        }
+      );
+    });
   };
 
   return {

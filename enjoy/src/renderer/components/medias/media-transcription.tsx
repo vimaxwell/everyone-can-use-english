@@ -26,6 +26,8 @@ import {
 } from "lucide-react";
 import { AlignmentResult } from "echogarden/dist/api/API.d.js";
 import { formatDuration } from "@renderer/lib/utils";
+import { MediaTranscriptionForm } from "./media-transcription-form";
+import { MediaTranscriptionReadButton } from "./media-transcription-read-button";
 
 export const MediaTranscription = () => {
   const containerRef = useRef<HTMLDivElement>();
@@ -113,37 +115,50 @@ export const MediaTranscription = () => {
             )}
             <span className="capitalize">{t("transcript")}</span>
           </div>
-          <AlertDialog>
-            <AlertDialogTrigger asChild>
-              <Button
-                variant="outline"
-                size="sm"
-                disabled={transcribing || transcription.state === "processing"}
-                className="capitalize"
-              >
-                {(transcribing || transcription.state === "processing") && (
-                  <LoaderIcon className="animate-spin w-4 mr-2" />
-                )}
-                {transcription.result ? t("regenerate") : t("transcribe")}
-              </Button>
-            </AlertDialogTrigger>
-            <AlertDialogContent>
-              <AlertDialogHeader>
-                <AlertDialogTitle>{t("transcribe")}</AlertDialogTitle>
-                <AlertDialogDescription>
-                  {t("transcribeMediaConfirmation", {
-                    name: media.name,
-                  })}
-                </AlertDialogDescription>
-              </AlertDialogHeader>
-              <AlertDialogFooter>
-                <AlertDialogCancel>{t("cancel")}</AlertDialogCancel>
-                <AlertDialogAction onClick={generateTranscription}>
-                  {t("transcribe")}
-                </AlertDialogAction>
-              </AlertDialogFooter>
-            </AlertDialogContent>
-          </AlertDialog>
+          <div className="flex space-x-2">
+            <MediaTranscriptionReadButton />
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  disabled={
+                    transcribing || transcription.state === "processing"
+                  }
+                  className="capitalize"
+                >
+                  {(transcribing || transcription.state === "processing") && (
+                    <LoaderIcon className="animate-spin w-4 mr-2" />
+                  )}
+                  {transcription.result ? t("regenerate") : t("transcribe")}
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>{t("transcribe")}</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    {t("transcribeMediaConfirmation", {
+                      name: media.name,
+                    })}
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>{t("cancel")}</AlertDialogCancel>
+                  <AlertDialogAction
+                    onClick={() =>
+                      generateTranscription({
+                        originalText: "",
+                      })
+                    }
+                  >
+                    {t("transcribe")}
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+
+            <MediaTranscriptionForm />
+          </div>
         </div>
       </div>
 

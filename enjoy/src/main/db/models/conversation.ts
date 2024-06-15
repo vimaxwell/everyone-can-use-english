@@ -10,10 +10,12 @@ import {
   HasMany,
   DataType,
   AllowNull,
+  BeforeSave,
 } from "sequelize-typescript";
 import { Message, Speech } from "@main/db/models";
 import mainWindow from "@main/window";
 import log from "@main/logger";
+import { t } from "i18next";
 
 const logger = log.scope("db/models/conversation");
 @Table({
@@ -63,6 +65,27 @@ export class Conversation extends Model<Conversation> {
 
   @HasMany(() => Message)
   messages: Message[];
+
+  @BeforeSave
+  static validateConfiguration(conversation: Conversation) {
+    if (conversation.type === "tts") {
+      if (!conversation.configuration.tts) {
+        throw new Error(t("models.conversation.ttsConfigurationIsRequired"));
+      }
+      if (!conversation.configuration.tts.engine) {
+        throw new Error(t("models.conversation.ttsEngineIsRequired"));
+      }
+      if (!conversation.configuration.tts.model) {
+        throw new Error("models.conversation.ttsModelIsRequired");
+      }
+
+      conversation.engine = conversation.configuration.tts.engine;
+      conversation.configuration.model = conversation.configuration.tts.engine;
+    }
+
+    if (!conversation.configuration.model)
+      throw new Error(t("models.conversation.modelIsRequired"));
+  }
 
   @AfterCreate
   static notifyForCreate(conversation: Conversation) {

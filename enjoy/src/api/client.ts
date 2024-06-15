@@ -71,11 +71,27 @@ export class Client {
 
   auth(params: {
     provider: "mixin" | "github" | "bandu" | "email";
-    code: string;
+    code?: string;
+    deviceCode?: string;
     phoneNumber?: string;
     email?: string;
+    mixinId?: string;
   }): Promise<UserType> {
     return this.api.post("/api/sessions", decamelizeKeys(params));
+  }
+
+  config(key: string): Promise<any> {
+    return this.api.get(`/api/config/${key}`);
+  }
+
+  deviceCode(provider = "github"): Promise<{
+    deviceCode: string;
+    userCode: string;
+    verificationUri: string;
+    expiresIn: number;
+    interval: number;
+  }> {
+    return this.api.post("/api/sessions/device_code", { provider });
   }
 
   me(): Promise<UserType> {
@@ -93,7 +109,11 @@ export class Client {
     return this.api.put(`/api/users/${id}`, decamelizeKeys(params));
   }
 
-  loginCode(params: { phoneNumber?: string; email?: string }): Promise<void> {
+  loginCode(params: {
+    phoneNumber?: string;
+    email?: string;
+    mixinId?: string;
+  }): Promise<void> {
     return this.api.post("/api/sessions/login_code", decamelizeKeys(params));
   }
 
@@ -166,7 +186,15 @@ export class Client {
     page?: number;
     items?: number;
     userId?: string;
-    type?: "all" | "recording" | "medium" | "story" | "prompt" | "text" | "gpt" | "note";
+    type?:
+      | "all"
+      | "recording"
+      | "medium"
+      | "story"
+      | "prompt"
+      | "text"
+      | "gpt"
+      | "note";
     by?: "following" | "all";
   }): Promise<
     {
@@ -255,10 +283,24 @@ export class Client {
   }
 
   generateSpeechToken(params?: {
+    purpose?: string;
     targetType?: string;
     targetId?: string;
-  }): Promise<{ token: string; region: string }> {
+    input?: string;
+  }): Promise<{ id: number; token: string; region: string }> {
     return this.api.post("/api/speech/tokens", decamelizeKeys(params || {}));
+  }
+
+  consumeSpeechToken(id: number) {
+    return this.api.put(`/api/speech/tokens/${id}`, {
+      state: "consumed",
+    });
+  }
+
+  revokeSpeechToken(id: number) {
+    return this.api.put(`/api/speech/tokens/${id}`, {
+      state: "revoked",
+    });
   }
 
   syncPronunciationAssessment(
@@ -281,6 +323,7 @@ export class Client {
     context: string;
     sourceId?: string;
     sourceType?: string;
+    nativeLanguage?: string;
   }): Promise<LookupType> {
     return this.api.post("/api/lookups", decamelizeKeys(params));
   }
@@ -391,6 +434,7 @@ export class Client {
 
   createPayment(params: {
     amount: number;
+    reconciledCurrency: string;
     processor: string;
     paymentType: string;
   }): Promise<PaymentType> {
@@ -411,5 +455,20 @@ export class Client {
 
   payment(id: string): Promise<PaymentType> {
     return this.api.get(`/api/payments/${id}`);
+  }
+
+  mineSegments(params?: {
+    page?: number;
+    segmentIndex?: number;
+    targetId?: string;
+    targetType?: string;
+  }): Promise<
+    {
+      segments: SegmentType[];
+    } & PagyResponseType
+  > {
+    return this.api.get("/api/mine/segments", {
+      params: decamelizeKeys(params),
+    });
   }
 }

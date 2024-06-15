@@ -6,6 +6,7 @@ type EnjoyAppType = {
     reload: () => Promise<void>;
     isPackaged: () => Promise<boolean>;
     apiUrl: () => Promise<string>;
+    wsUrl: () => Promise<string>;
     quit: () => Promise<void>;
     openDevTools: () => Promise<void>;
     createIssue: (title: string, body: string) => Promise<void>;
@@ -42,7 +43,7 @@ type EnjoyAppType = {
       downloadTalk: (url: string) => Promise<{ audio: string; video: string }>;
     };
     youtube: {
-      videos: () => Promise<YoutubeVideoType[]>;
+      videos: (channel: string) => Promise<YoutubeVideoType[]>;
     };
   };
   view: {
@@ -73,6 +74,21 @@ type EnjoyAppType = {
   onNotification: (
     callback: (event, notification: NotificationType) => void
   ) => void;
+  onLookup: (
+    callback: (
+      event,
+      selection: string,
+      position: { x: number; y: number }
+    ) => void
+  ) => void;
+  offLookup: () => void;
+  onTranslate: (
+    callback: (
+      event,
+      selection: string,
+      position: { x: number; y: number }
+    ) => void
+  ) => void;
   shell: {
     openExternal: (url: string) => Promise<void>;
     openPath: (path: string) => Promise<void>;
@@ -90,13 +106,17 @@ type EnjoyAppType = {
     showErrorBox: (title: string, content: string) => Promise<void>;
   };
   settings: {
+    get: (key: string) => Promise<any>;
+    set: (key: string, value: any) => Promise<void>;
     getLibrary: () => Promise<string>;
     setLibrary: (library: string) => Promise<void>;
     getUser: () => Promise<UserType>;
     setUser: (user: UserType) => Promise<void>;
     getUserDataPath: () => Promise<string>;
     getDefaultEngine: () => Promise<string>;
-    setDefaultEngine: (engine: "enjoyai" | "openai") => Promise<void>;
+    setDefaultEngine: (string) => Promise<string>;
+    getGptEngine: () => Promise<GptEngineSettingType>;
+    setGptEngine: (GptEngineSettingType) => Promise<GptEngineSettingType>;
     getLlm: (provider: SupportedLlmProviderType) => Promise<LlmProviderType>;
     setLlm: (
       provider: SupportedLlmProviderType,
@@ -130,6 +150,10 @@ type EnjoyAppType = {
     update: (id: string, params: any) => Promise<AudioType | undefined>;
     destroy: (id: string) => Promise<undefined>;
     upload: (id: string) => Promise<void>;
+    crop: (
+      id: string,
+      params: { startTime: number; endTime: number }
+    ) => Promise<string>;
   };
   videos: {
     findAll: (params: any) => Promise<VideoType[]>;
@@ -138,6 +162,10 @@ type EnjoyAppType = {
     update: (id: string, params: any) => Promise<VideoType | undefined>;
     destroy: (id: string) => Promise<undefined>;
     upload: (id: string) => Promise<void>;
+    crop: (
+      id: string,
+      params: { startTime: number; endTime: number }
+    ) => Promise<string>;
   };
   recordings: {
     findAll: (where: any) => Promise<RecordingType[]>;
@@ -148,7 +176,7 @@ type EnjoyAppType = {
     update: (id: string, params: any) => Promise<RecordingType | undefined>;
     destroy: (id: string) => Promise<void>;
     upload: (id: string) => Promise<void>;
-    assess: (id: string) => Promise<void>;
+    assess: (id: string, language?: string) => Promise<void>;
     stats: (params: { from: string; to: string }) => Promise<{
       count: number;
       duration: number;
@@ -174,6 +202,13 @@ type EnjoyAppType = {
       targetId: string,
       targetType
     ) => Promise<SegementRecordingStatsType>;
+  };
+  pronunciationAssessments: {
+    findAll: (params: any) => Promise<PronunciationAssessmentType[]>;
+    findOne: (params: any) => Promise<PronunciationAssessmentType>;
+    create: (params: any) => Promise<PronunciationAssessmentType>;
+    update: (id: string, params: any) => Promise<PronunciationAssessmentType>;
+    destroy: (id: string) => Promise<void>;
   };
   conversations: {
     findAll: (params: any) => Promise<ConversationType[]>;

@@ -1,17 +1,15 @@
-import { ChatOpenAI } from "@langchain/openai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { z } from "zod";
-import {
-  StructuredOutputParser,
-  OutputFixingParser,
-} from "langchain/output_parsers";
-import { RESPONSE_JSON_FORMAT_MODELS } from "@/constants";
+import { jsonCommand } from "./json.command";
+import { LANGUAGES } from "@/constants";
 
 export const lookupCommand = async (
   params: {
     word: string;
     context: string;
     meaningOptions?: Partial<MeaningType>[];
+    learningLanguage?: string;
+    nativeLanguage?: string;
   },
   options: {
     key: string;
@@ -29,16 +27,15 @@ export const lookupCommand = async (
   translation?: string;
   lemma?: string;
 }> => {
-  const { key, temperature = 0, baseUrl } = options;
-  let { modelName = "gpt-4-turbo" } = options;
+  const {
+    word,
+    context,
+    meaningOptions,
+    learningLanguage = "en-US",
+    nativeLanguage = "zh-CN",
+  } = params;
 
-  if (RESPONSE_JSON_FORMAT_MODELS.indexOf(modelName) === -1) {
-    modelName = "gpt-4-turbo";
-  }
-
-  const { word, context, meaningOptions } = params;
-
-  const responseSchema = z.object({
+  const schema = z.object({
     id: z.string().optional(),
     word: z.string().optional(),
     context_translation: z.string().optional(),
@@ -49,39 +46,12 @@ export const lookupCommand = async (
     lemma: z.string().optional(),
   });
 
-  const parser = StructuredOutputParser.fromZodSchema(responseSchema);
-  const fixParser = OutputFixingParser.fromLLM(
-    new ChatOpenAI({
-      openAIApiKey: key,
-      modelName,
-      temperature: 0,
-      configuration: {
-        baseURL: baseUrl,
-      },
-    }),
-    parser
-  );
-
-  const chatModel = new ChatOpenAI({
-    openAIApiKey: key,
-    modelName,
-    temperature,
-    configuration: {
-      baseURL: baseUrl,
-    },
-    cache: true,
-    verbose: true,
-    maxRetries: 2,
-  });
-
-  const prompt = ChatPromptTemplate.fromMessages([
+  const prompt = await ChatPromptTemplate.fromMessages([
     ["system", DICITIONARY_PROMPT],
     ["human", "{input}"],
-  ]);
-
-  const response = await prompt.pipe(chatModel).invoke({
-    learning_language: "English",
-    native_language: "Chinese",
+  ]).format({
+    learning_language: LANGUAGES.find((l) => l.code === learningLanguage).name,
+    native_language: LANGUAGES.find((l) => l.code === nativeLanguage).name,
     input: JSON.stringify({
       word,
       context,
@@ -89,61 +59,21 @@ export const lookupCommand = async (
     }),
   });
 
-  try {
-    return await parser.parse(response.text);
-  } catch (e) {
-    return await fixParser.parse(response.text);
-  }
+  return jsonCommand(prompt, { ...options, schema });
 };
 
-const DICITIONARY_PROMPT = `You are an {learning_language}-{native_language} dictionary. I will provide "word(it also maybe a phrase)" and "context" as input, you should return the "word", "lemma", "pronunciation", "pos(part of speech, maybe empty for phrase)", "definition", "translation" and "context_translation" as output. If I provide "definitions", you should try to select the appropriate one for the given context, and return the id of selected definition as "id". If none are suitable, generate a new definition for me. If no context is provided, return the most common definition. If you do not know the appropriate definition, return an empty string for "definition" and "translation".
-      Always return output in JSON format.
+const DICITIONARY_PROMPT = `You are an {learning_language}-{native_language} dictionary. 
+I will provide "word(it also maybe a phrase)" and "context" as input, you should return the "word", "lemma", "pronunciation", "pos", "definition", "translation" and "context_translation" as output. 
+If no context is provided, return the most common definition.
+If you do not know the appropriate definition, return an empty string for "definition" and "translation".
+Always return the output in JSON format as following:
       
-      # Example 1, with empty definitions
-      <input>
-        {{
-          "word": "booked",
-          "context": "She'd *booked* a table for four at their favourite restaurant.",
-          "definitions": []
-        }}
-      </input>
-      
-      <output> 
-      {{
-        "word": "booked",
-        "lemma": "book",
-        "pronunciation": "bʊk",
-        "pos": "verb",
-        "definition": "to arrange to have a seat, room, performer, etc. at a particular time in the future",
-        "translation": "预订",
-        "context_translation": "她已经在他们最喜欢的餐厅预订了四人桌位。"
-      }}
-      </output> 
-      
-      # Example 2, with definitions
-      <input>
-      {{
-        "word": "booked",
-        "context": "She'd *booked* a table for four at their favourite restaurant.",
-        "definitions": [
-          {{
-            "id": "767ddbf3-c08a-42e1-95c8-c48e681f3486",
-            "pos": "noun",
-            "definition": "a written text that can be published in printed or electronic form",
-          }},
-          {{
-            "id": "37940295-ef93-4873-af60-f03bf7e271f0",
-            "pos": "verb",
-            "definition": "to arrange to have a seat, room, performer, etc. at a particular time in the future",
-          }}
-        ]
-      }}
-      </input>
-      
-      <output>
-        {{
-          "id": "37940295-ef93-4873-af60-f03bf7e271f0",
-          "context_translation": "她已经在他们最喜欢的餐厅预订了四人桌位。"
-        }}
-      </output> 
-  `;
+{{
+  "word": "the original word or phrase",
+  "lemma": "lemma",
+  "pronunciation": "IPA pronunciation",
+  "pos": "the part of speech",
+  "definition": "the definition in {learning_language}",
+  "translation": "translation in {native_language}",
+  "context_translation": "translation of the context in {native_language}",
+}}`;

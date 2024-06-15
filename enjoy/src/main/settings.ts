@@ -34,7 +34,7 @@ const libraryPath = () => {
     settings.setSync(
       "library",
       process.env.LIBRARY_PATH ||
-      path.join(app.getPath("documents"), LIBRARY_PATH_SUFFIX)
+        path.join(app.getPath("documents"), LIBRARY_PATH_SUFFIX)
     );
   } else if (path.parse(_library).base !== LIBRARY_PATH_SUFFIX) {
     settings.setSync("library", path.join(_library, LIBRARY_PATH_SUFFIX));
@@ -68,8 +68,8 @@ const whisperConfig = (): WhisperConfigType => {
   ) as WhisperConfigType["service"];
 
   if (!service) {
-    settings.setSync("whisper.service", "local");
-    service = "local";
+    settings.setSync("whisper.service", "azure");
+    service = "azure";
   }
 
   return {
@@ -92,9 +92,16 @@ const userDataPath = () => {
   return userData;
 };
 
-
 export default {
   registerIpcHandlers: () => {
+    ipcMain.handle("settings-get", (_event, key) => {
+      return settings.getSync(key);
+    });
+
+    ipcMain.handle("settings-set", (_event, key, value) => {
+      settings.setSync(key, value);
+    });
+
     ipcMain.handle("settings-get-library", (_event) => {
       libraryPath();
       return settings.getSync("library");
@@ -152,6 +159,14 @@ export default {
 
     ipcMain.handle("settings-set-default-engine", (_event, engine) => {
       return settings.setSync("defaultEngine", engine);
+    });
+
+    ipcMain.handle("settings-get-gpt-engine", (_event) => {
+      return settings.getSync("engine.gpt");
+    });
+
+    ipcMain.handle("settings-set-gpt-engine", (_event, engine) => {
+      return settings.setSync("engine.gpt", engine);
     });
 
     ipcMain.handle("settings-get-default-hotkeys", (_event) => {

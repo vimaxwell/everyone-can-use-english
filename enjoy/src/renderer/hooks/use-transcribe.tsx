@@ -12,7 +12,9 @@ import { AlignmentResult } from "echogarden/dist/api/API.d.js";
 import { useAiCommand } from "./use-ai-command";
 
 export const useTranscribe = () => {
-  const { EnjoyApp, user, webApi } = useContext(AppSettingsProviderContext);
+  const { EnjoyApp, user, webApi, learningLanguage } = useContext(
+    AppSettingsProviderContext
+  );
   const { whisperConfig, openai } = useContext(AISettingsProviderContext);
   const { punctuateText } = useAiCommand();
 
@@ -34,6 +36,7 @@ export const useTranscribe = () => {
       targetId?: string;
       targetType?: string;
       originalText?: string;
+      language?: string;
     }
   ): Promise<{
     engine: string;
@@ -42,7 +45,12 @@ export const useTranscribe = () => {
     originalText?: string;
   }> => {
     const url = await transcode(mediaSrc);
-    const { targetId, targetType, originalText } = params || {};
+    const {
+      targetId,
+      targetType,
+      originalText,
+      language = learningLanguage.split("-")[0],
+    } = params || {};
     const blob = await (await fetch(url)).blob();
 
     let result;
@@ -75,7 +83,10 @@ export const useTranscribe = () => {
 
     const alignmentResult = await EnjoyApp.echogarden.align(
       new Uint8Array(await blob.arrayBuffer()),
-      transcript
+      transcript,
+      {
+        language,
+      }
     );
 
     return {
@@ -160,8 +171,8 @@ export const useTranscribe = () => {
     const audioConfig = sdk.AudioConfig.fromWavFileInput(
       new File([blob], "audio.wav")
     );
-    // setting the recognition language to English.
-    config.speechRecognitionLanguage = "en-US";
+    // setting the recognition language to learning language, such as 'en-US'.
+    config.speechRecognitionLanguage = learningLanguage;
     config.requestWordLevelTimestamps();
     config.outputFormat = sdk.OutputFormat.Detailed;
 
@@ -197,7 +208,7 @@ export const useTranscribe = () => {
         resolve({
           engine: "azure",
           model: "whisper",
-          text: results.map((result) => result.DisplayText).join(' '),
+          text: results.map((result) => result.DisplayText).join(" "),
         });
       };
 

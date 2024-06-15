@@ -1,37 +1,35 @@
 import log from "@main/logger";
 import $ from "cheerio";
-import { BrowserView, ipcMain } from "electron";
+import { WebContentsView, ipcMain } from "electron";
 
 const logger = log.scope("providers/ted-provider");
 
 export class TedProvider {
   scrape = async (url: string) => {
-    return new Promise<string>((resolve, reject) => {
-      const view = new BrowserView();
+    return new Promise<string>((resolve, _reject) => {
+      const view = new WebContentsView();
       view.webContents.loadURL(url);
       logger.debug("started scraping", url);
 
-      view.webContents.on("did-finish-load", () => {
-        logger.debug("finished scraping", url);
+      view.webContents.on("did-stop-loading", () => {
+        logger.debug("finished loading", url);
         view.webContents
           .executeJavaScript(`document.documentElement.innerHTML`)
           .then((html) => resolve(html as string))
+          .catch((error) => {
+            logger.warn("Failed to scrape", url, error);
+            resolve("");
+          })
           .finally(() => {
-            (view.webContents as any).destroy();
+            view.webContents.close();
           });
       });
-      view.webContents.on(
-        "did-fail-load",
-        (_event, _errorCode, error, validatedURL) => {
-          logger.error("failed scraping", url, error, validatedURL);
-          (view.webContents as any).destroy();
-          reject();
-        }
-      );
     });
   };
 
   extractTalks = async (html: string) => {
+    if (!html) return [];
+
     try {
       const json = $.load(html)("#__NEXT_DATA__").text();
       const data = JSON.parse(json);
@@ -43,6 +41,8 @@ export class TedProvider {
   };
 
   extractIdeas = async (html: string) => {
+    if (!html) return [];
+
     const ideas: TedIdeaType[] = [];
     $.load(html)(".post.block").each((_, el) => {
       const url = $(el).find("a.block-post-link").attr("href");
@@ -72,7 +72,7 @@ export class TedProvider {
     }
 
     return new Promise<{ audio: string; video: string }>((resolve, reject) => {
-      const view = new BrowserView();
+      const view = new WebContentsView();
       view.webContents.loadURL(url);
       logger.debug("started loading", url);
 
@@ -102,15 +102,15 @@ export class TedProvider {
             reject();
           })
           .finally(() => {
-            (view.webContents as any).destroy();
+            view.webContents.close();
           });
       });
       view.webContents.on(
         "did-fail-load",
         (_event, _errorCode, error, validatedURL) => {
           logger.error("failed loading", url, error, validatedURL);
-          (view.webContents as any).destroy();
-          reject();
+          view.webContents.close();
+          reject(error);
         }
       );
     });
@@ -128,27 +128,15 @@ export class TedProvider {
 
   registerIpcHandlers = () => {
     ipcMain.handle("ted-provider-talks", async () => {
-      try {
-        return await this.talks();
-      } catch (error) {
-        logger.error(error);
-      }
+      return await this.talks();
     });
 
     ipcMain.handle("ted-provider-download-talk", async (_, url) => {
-      try {
-        return await this.downloadTalk(url);
-      } catch (error) {
-        logger.error(error);
-      }
+      return await this.downloadTalk(url);
     });
 
     ipcMain.handle("ted-provider-ideas", async () => {
-      try {
-        return await this.ideas();
-      } catch (error) {
-        logger.error(error);
-      }
+      return await this.ideas();
     });
   };
 }
